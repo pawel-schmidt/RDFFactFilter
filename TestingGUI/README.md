@@ -1,0 +1,1 @@
+This folder contains windows application used for testing filtering.

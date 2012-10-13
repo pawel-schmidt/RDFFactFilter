@@ -1,0 +1,1 @@
+This folder contains objects representing RDF triple and lexicalisations.
