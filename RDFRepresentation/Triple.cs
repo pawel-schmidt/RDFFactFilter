@@ -6,30 +6,30 @@ using System.Threading.Tasks;
 
 namespace RDFRepresentation {
     public class Triple {
-        private String @object;
-        private String subject;
-        private String property;
+        private Entity @object;
+        private Entity subject;
+        private Entity property;
 
-        public Triple(String @object, String property, String subject) {
+        public Triple(Entity @object, Entity property, Entity subject) {
             this.@object = @object;
             this.property = property;
             this.subject = subject;
         }
 
-        public String Object {
+        public Entity Object {
             get { return @object; }
-            set { @object = value; }
         }
 
-        public String Subject {
+        public Entity Subject {
             get { return subject; }
-            set { subject = value; }
         }
 
-        public String Property {
+        public Entity Property {
             get { return property; }
-            set { property = value; }
         }
 
+        public override string ToString() {
+            return "<\"" + @object + "\", \"" + property + "\", \"" + subject + "\">";
+        }
     }
 }
