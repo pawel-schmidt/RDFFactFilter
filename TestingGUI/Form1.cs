@@ -13,5 +13,10 @@ namespace TestingGUI {
         public Form1() {
             InitializeComponent();
         }
+        
+        void Button2Click(object sender, EventArgs e)
+        {
+        	
+        }
     }
 }
