@@ -13,7 +13,6 @@ using ServiceStack.Text;
 
 namespace DAO
 {
-	
 	/**
 	 * This class deals with JSON output based on triple list.
 	 */
@@ -38,31 +37,41 @@ namespace DAO
     		return ;
     	}
     	
-    	//TODO: fill me to the end
+    	/**
+    	 * This method may fetch JSON from remote URL and
+    	 * return dictionary.
+    	 * 
+		 * dynamic used, because thanks to that you can use any
+    	 * of the JSON structure.
+    	 * 
+    	 * @param String url
+    	 * @return dynamic Dictionary
+    	 */ 
     	public static dynamic fromURL(String url) {
     		WebClient webClient = new WebClient();
 			String content = webClient.DownloadString(url);
 
 			JavaScriptSerializer jss = new JavaScriptSerializer();
 			dynamic dict = jss.Deserialize<dynamic>(content);
+			
 			return dict;
     	}
     	
-    	//TODO: make use of me
+    	/**
+    	 * This method returns String ready to be JSONIFIED
+    	 * from some file.
+    	 * 
+    	 * @param String path to the file
+    	 * @return String file content
+    	 */ 
     	public static dynamic fromFile(String path) {
-    		//data.json
     		String data = File.ReadAllText(path);
     		return data;
     	}
     	
-    	public static void Main(){
-    	
-    		String url ="http://dbpedia.org/sparql?default-graph-uri=http%3A//dbpedia.org&query=PREFIX%20owl%3A%20%3Chttp%3A//www.w3.org/2002/07/owl%23%3E%0APREFIX%20xsd%3A%20%3Chttp%3A//www.w3.org/2001/XMLSchema%23%3E%0APREFIX%20rdfs%3A%20%3Chttp%3A//www.w3.org/2000/01/rdf-schema%23%3E%0APREFIX%20rdf%3A%20%3Chttp%3A//www.w3.org/1999/02/22-rdf-syntax-ns%23%3E%0APREFIX%20foaf%3A%20%3Chttp%3A//xmlns.com/foaf/0.1/%3E%0APREFIX%20dc%3A%20%3Chttp%3A//purl.org/dc/elements/1.1/%3E%0APREFIX%20%3A%20%3Chttp%3A//dbpedia.org/resource/%3E%0APREFIX%20dbpedia2%3A%20%3Chttp%3A//dbpedia.org/property/%3E%0APREFIX%20dbpedia%3A%20%3Chttp%3A//dbpedia.org/%3E%0APREFIX%20skos%3A%20%3Chttp%3A//www.w3.org/2004/02/skos/core%23%3E%0ASELECT%20%3Ffilm%0D%0AWHERE%20%7B%20%3Ffilm%20%3Chttp%3A//purl.org/dc/terms/subject%3E%20%3Chttp%3A//dbpedia.org/resource/Category%3AFrench_films%3E%20%7D&format=application/sparql-results%2Bjson";
-    		WebClient webClient = new WebClient();
-			String content = webClient.DownloadString(url);
+    	public static void Main() {
+    		String content = fromFile("../../../data.json");
     		
-			
-
 			JavaScriptSerializer jss = new JavaScriptSerializer();
 			dynamic dict = jss.Deserialize<dynamic>(content);
 			
