@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
 using ServiceStack.Text;
-
+using DAO;
 namespace TestingGUI {
     public partial class Form1 : Form {
 		String 
@@ -26,7 +26,7 @@ namespace TestingGUI {
         void BtnLoadClick(object sender, EventArgs e)
         {
         	OpenFileDialog openFileDialog1 = new OpenFileDialog();
-			openFileDialog1.Filter = "txt files (*.txt)|*.txt|All files (*.*)|*.*";
+			openFileDialog1.Filter = "json files (*.json)|*.json|All files (*.*)|*.*";
 			
 			if(openFileDialog1.ShowDialog() == DialogResult.OK){
 			    lexPath = openFileDialog1.FileName;
@@ -36,10 +36,10 @@ namespace TestingGUI {
 				lexContent = File.ReadAllText(lexPath);
 			}
 			
-			//dynamic dict = Jsonify.fromFile(lexPath);
-			//foreach(dynamic item in Dictionary){
-			//	this.listBoxPatternTriples.Items.Add(item);
-			//}
+			dynamic dict = Jsonify.fromFile(lexPath);
+			foreach(dynamic item in dict["results"]["bindings"]){
+				this.listBoxPatternTriples.Items.Add(item["film"]["value"]);
+			}
         }
         
         void BtnLoadPatternClick(object sender, EventArgs e)

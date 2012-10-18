@@ -32,6 +32,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="DAO">
+      <HintPath>..\DAO\bin\Debug\DAO.dll</HintPath>
+    </Reference>
     <Reference Include="ServiceStack.Text">
       <HintPath>..\DAO\ServiceStack.Text.dll</HintPath>
     </Reference>

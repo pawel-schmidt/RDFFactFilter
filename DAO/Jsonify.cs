@@ -58,7 +58,7 @@ namespace DAO
     	}
     	
     	/**
-    	 * This method returns String ready to be JSONIFIED
+    	 * This method returns parsed data in JSON format
     	 * from some file.
     	 * 
     	 * @param String path to the file
@@ -66,18 +66,21 @@ namespace DAO
     	 */ 
     	public static dynamic fromFile(String path) {
     		String data = File.ReadAllText(path);
-    		return data;
+    		
+    		JavaScriptSerializer jss = new JavaScriptSerializer();
+			dynamic dict = jss.Deserialize<dynamic>(data);
+			return dict;
     	}
     	
-    	public static void Main() {
-    		String content = fromFile("../../../data.json");
-    		
-			JavaScriptSerializer jss = new JavaScriptSerializer();
-			dynamic dict = jss.Deserialize<dynamic>(content);
-			
-			foreach(dynamic row in dict["results"]["bindings"]){
-				Console.WriteLine(row["film"]["value"]);
-			}
+//    	public static void Main() {
+//    		String content = fromFile("../../../data.json");
+//    		
+//			JavaScriptSerializer jss = new JavaScriptSerializer();
+//			dynamic dict = jss.Deserialize<dynamic>(content);
+//			
+//			foreach(dynamic row in dict["results"]["bindings"]){
+//				Console.WriteLine(row["film"]["value"]);
+//			}
 			
 			
     		/*
@@ -93,7 +96,7 @@ namespace DAO
     		Console.WriteLine(JsonSerializer.SerializeToString(list));
     		*/
     		
-    		Console.ReadKey();
-    	}
+//    		Console.ReadKey();
+//    	}
     }
 }
