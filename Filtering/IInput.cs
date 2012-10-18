@@ -12,20 +12,20 @@ namespace Filtering {
         /// </summary>
         /// <param name="filePath">Path to the file.</param>
         /// <returns>List of read triples.</returns>
-        public List<Triple> readTriples(String filePath);
+        List<Triple> readTriples(String filePath);
 
         /// <summary>
         /// Read pattern triples from file.
         /// </summary>
         /// <param name="filePath">Path to the file.</param>
         /// <returns>List of read pattern triples.</returns>
-        public List<Triple> readPatternTriples(String filePath);
+        List<Triple> readPatternTriples(String filePath);
 
         /// <summary>
         /// Read lexicalizations from file.
         /// </summary>
         /// <param name="filePath">Path to the file.</param>
         /// <returns>List of read lexicalizations.</returns>
-        public List<LexCollection> readLexicalizations(String filePath);
+        List<LexCollection> readLexicalizations(String filePath);
     }
 }

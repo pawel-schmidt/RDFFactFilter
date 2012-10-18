@@ -8,5 +8,6 @@ namespace Filtering
 {
     public class Class1
     {
+
     }
 }

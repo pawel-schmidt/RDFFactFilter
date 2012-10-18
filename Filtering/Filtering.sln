@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+# SharpDevelop 4.2.2.8818
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Filtering", "Filtering.csproj", "{E3DE8E0D-B7B0-43F4-9DEC-F4E2BE6FBDA5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E3DE8E0D-B7B0-43F4-9DEC-F4E2BE6FBDA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3DE8E0D-B7B0-43F4-9DEC-F4E2BE6FBDA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3DE8E0D-B7B0-43F4-9DEC-F4E2BE6FBDA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3DE8E0D-B7B0-43F4-9DEC-F4E2BE6FBDA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+EndGlobal
