@@ -10,9 +10,9 @@ using Newtonsoft.Json;
  */
 namespace RDFRepresentation {
     public class Triple {
-        private Entity @object;
-        private Entity subject;
-        private Entity property;
+        public Entity @object;
+        public  Entity subject;
+        public  Entity property;
 
         /// <summary>
         /// Entities which are connected. @object entity is connected with subject by property.
@@ -30,20 +30,8 @@ namespace RDFRepresentation {
         }
 
         
-        public Entity Object {
-            get { return @object; }
-        }
-		
-        public Entity Subject {
-            get { return subject; }
-        }
-		
-        public Entity Property {
-            get { return property; }
-        }
-
         public override string ToString() {
-            return "<\"" + @object + "\":" + @object.Type + ", \"" + property + "\", \"" + subject + "\":" + subject.Type + ">";
+            return "<\"" + @object + "\":" + @object.type + ", \"" + property + "\", \"" + subject + "\":" + subject.type + ">";
         }
     }
 }

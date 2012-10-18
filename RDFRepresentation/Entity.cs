@@ -10,16 +10,16 @@ using Newtonsoft.Json;
  */
 namespace RDFRepresentation {
     public class Entity {
-        private String value;
-        private EntityType type;
+        public String name;
+        public EntityType type;
 
         /// <summary>
         /// 
         /// </summary>
-        /// <param name="value">Value of entity, for example "Fort I"</param>
+        /// <param name="name">Value of entity, for example "Fort I"</param>
         /// <param name="type">Type of entity, which name is i. e. "Zamek"</param>
-        public Entity(String value, EntityType type) {
-            this.value = value;
+        public Entity(String name, EntityType type) {
+            this.name= name;
             this.type = type;
         }
 
@@ -27,16 +27,8 @@ namespace RDFRepresentation {
         	
         }
       
-        public String Name {
-            get { return value; }
-        }
-
-        public EntityType Type {
-            get { return type; }
-        }
-
         override public String ToString() {
-            return value;
+            return name;
         }
     }
 }
