@@ -32,12 +32,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="DAO">
-      <HintPath>..\DAO\bin\Debug\DAO.dll</HintPath>
-    </Reference>
-    <Reference Include="ServiceStack.Text">
-      <HintPath>..\DAO\ServiceStack.Text.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -82,6 +76,20 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DAO\DAO.csproj">
+      <Project>{6a09b7b8-2ca8-458b-a7d3-f4a1d453cf44}</Project>
+      <Name>DAO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Filtering\Filtering.csproj">
+      <Project>{e3de8e0d-b7b0-43f4-9dec-f4e2be6fbda5}</Project>
+      <Name>Filtering</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\RDFRepresentation\RDFRepresentation.csproj">
+      <Project>{8de391ee-f863-48cd-8577-b095994c5d2c}</Project>
+      <Name>RDFRepresentation</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

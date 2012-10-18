@@ -27,11 +27,11 @@ namespace Filtering {
                     foreach (LexCollection l in lexicalizations) {
 
                         // if property name of pattern triple and lexicalizations collection name are the same
-                        if (pt.Property.Type.Name.Equals(l.Name, StringComparison.OrdinalIgnoreCase)) {
+                        if (pt.property.type.Name.Equals(l.name, StringComparison.OrdinalIgnoreCase)) {
                             
-                            foreach (String lex in l) {
+                            foreach (String lex in l.items) {
                                 // if lexicalization is equal to triple property
-                                if (lex.Equals(t.Property.Name, StringComparison.OrdinalIgnoreCase)) {
+                                if (lex.Equals(t.property.name, StringComparison.OrdinalIgnoreCase)) {
                                     // add to result list and jump out from loop
                                     result.Add(t);
                                     goto outer;

@@ -19,7 +19,7 @@ namespace DAO
 	 * This class deals with JSON output based on triple list.
 	 * @implements IInput
 	 */
-	public class Jsonify : IInput
+	public class Jsonify : IInput, IOutput
     {
     	
 		/**
@@ -57,6 +57,16 @@ namespace DAO
 			List<LexCollection> list = JsonConvert.DeserializeObject<List<LexCollection>>(data);
    			return list;
 		}
+
+
+        /// <summary>
+        /// Save triples to file.
+        /// </summary>
+        /// <param name="triples">Filtered triples to save.</param>
+        /// <param name="filePath">Path to file for save.</param>
+        public void save(List<Triple> triples, String filePath) {
+            File.WriteAllText(filePath, serializeTriples(triples));
+        }
 			
     	/**
     	 * This method returns serialized triple list into JSON

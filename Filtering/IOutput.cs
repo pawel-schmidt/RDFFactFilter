@@ -13,6 +13,6 @@ namespace Filtering {
         /// </summary>
         /// <param name="triples">Filtered triples to save.</param>
         /// <param name="filePath">Path to file for save.</param>
-        public void save(List<Triple> triples, String filePath);
+        void save(List<Triple> triples, String filePath);
     }
 }

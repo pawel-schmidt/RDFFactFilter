@@ -30,9 +30,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Filtering">
-      <HintPath>..\Filtering\bin\Debug\Filtering.dll</HintPath>
-    </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>..\Newtonsoft.Json.dll</HintPath>
     </Reference>
@@ -55,6 +52,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Filtering\Filtering.csproj">
+      <Project>{e3de8e0d-b7b0-43f4-9dec-f4e2be6fbda5}</Project>
+      <Name>Filtering</Name>
+    </ProjectReference>
     <ProjectReference Include="..\RDFRepresentation\RDFRepresentation.csproj">
       <Project>{8de391ee-f863-48cd-8577-b095994c5d2c}</Project>
       <Name>RDFRepresentation</Name>

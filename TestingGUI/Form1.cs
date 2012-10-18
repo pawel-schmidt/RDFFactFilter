@@ -8,69 +8,68 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
-using ServiceStack.Text;
 using DAO;
+using RDFRepresentation;
+using Filtering;
+
 namespace TestingGUI {
     public partial class Form1 : Form {
-		String 
-			lexPath, lexContent,
-			triplePath, tripleContent,
-			patternPath, patternContent;
-		
+        private IInput input = new Jsonify();
+        private IOutput output = new Jsonify();
+        private List<Triple> triples;
+        private List<Triple> patternTriples;
+        private List<Triple> filteredTriples;
+        private List<LexCollection> lex;
+        private const String DIALOG_FILTER = "json files (*.json)|*.json|All files (*.*)|*.*";
+
         public Form1() {
             InitializeComponent();
+            openFileDialog.InitialDirectory = Application.StartupPath + @"..\..\";
+            saveFileDialog.InitialDirectory = Application.StartupPath;
         }
-        
-       
-        
-        void BtnLoadClick(object sender, EventArgs e)
-        {
-        	OpenFileDialog openFileDialog1 = new OpenFileDialog();
-			openFileDialog1.Filter = "json files (*.json)|*.json|All files (*.*)|*.*";
-			
-			if(openFileDialog1.ShowDialog() == DialogResult.OK){
-			    lexPath = openFileDialog1.FileName;
-			}
-			
-			if (lexPath.Length>0){
-				lexContent = File.ReadAllText(lexPath);
-			}
-			
-			dynamic dict = Jsonify.fromFile(lexPath);
-			foreach(dynamic item in dict["results"]["bindings"]){
-				this.listBoxPatternTriples.Items.Add(item["film"]["value"]);
-			}
+
+        private void BtnLoadTriplesClick(object sender, EventArgs e) {
+            openFileDialog.Filter = DIALOG_FILTER;
+
+            if (openFileDialog.ShowDialog() == DialogResult.OK) {
+                triples = input.readTriples(openFileDialog.FileName);
+                listBoxTriples.Items.Clear();
+                foreach (Triple t in triples) {
+                    listBoxTriples.Items.Add(t.ToString());
+                }
+            }
         }
-        
-        void BtnLoadPatternClick(object sender, EventArgs e)
-        {
-        	OpenFileDialog openFileDialog1 = new OpenFileDialog();
-			openFileDialog1.Filter = "txt files (*.txt)|*.txt|All files (*.*)|*.*";
-			
-			if(openFileDialog1.ShowDialog() == DialogResult.OK){
-			    patternPath = openFileDialog1.FileName;
-			}
-			
-			if (patternPath.Length>0){
-				patternContent = File.ReadAllText(patternPath);
-			}
+
+        private void BtnLoadPatternTriplesClick(object sender, EventArgs e) {
+            openFileDialog.Filter = DIALOG_FILTER;
+
+            if (openFileDialog.ShowDialog() == DialogResult.OK) {
+                patternTriples = input.readPatternTriples(openFileDialog.FileName);
+                listBoxPatternTriples.Items.Clear();
+                foreach (Triple t in patternTriples) {
+                    listBoxPatternTriples.Items.Add(t.ToString());
+                }
+            }
         }
-        
-        void Button1Click(object sender, EventArgs e)
-        {
-        	OpenFileDialog openFileDialog1 = new OpenFileDialog();
-			openFileDialog1.Filter = "txt files (*.txt)|*.txt|All files (*.*)|*.*";
-			
-			if(openFileDialog1.ShowDialog() == DialogResult.OK){
-			    triplePath = openFileDialog1.FileName;
-			}
-			
-			if (triplePath.Length>0){
-				tripleContent = File.ReadAllText(triplePath);
-			}
-			
-			listBoxTriples.Items.Add("<FortI, zostalZbudowany, 1922>");
+
+        private void BtnLoadLexClick(object sender, EventArgs e) {
+            openFileDialog.Filter = DIALOG_FILTER;
+            if (openFileDialog.ShowDialog() == DialogResult.OK) {
+                lex = input.readLexicalizations(openFileDialog.FileName);
+            }
         }
-        
+
+        private void btnFilter_Click(object sender, EventArgs e) {
+            filteredTriples = FilteringMachine.filter(triples, patternTriples, lex);
+            foreach (Triple t in filteredTriples) {
+                listBoxFiltered.Items.Add(t.ToString());
+            }
+        }
+
+        private void btnSave_Click(object sender, EventArgs e) {
+            if (saveFileDialog.ShowDialog() == System.Windows.Forms.DialogResult.OK) {
+                output.save(FilteringMachine.LastResult, saveFileDialog.FileName);
+            }
+        }
     }
 }
