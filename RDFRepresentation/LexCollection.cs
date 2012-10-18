@@ -9,6 +9,7 @@ using System.Threading.Tasks;
  * @author pawelschmidt
  */
 namespace RDFRepresentation {
+	
     public class LexCollection : HashSet<String> {
         private String name;
 

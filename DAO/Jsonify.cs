@@ -7,18 +7,43 @@ using System.Threading.Tasks;
 using System.Runtime.Serialization;
 using System.Net;
 using System.Web.Script.Serialization;
-using RDFRepresentation;
-using ServiceStack.Text;
+//using ServiceStack.Text;
+using Newtonsoft.Json;
 
+using RDFRepresentation;
+using Filtering;
 
 namespace DAO
 {
 	/**
 	 * This class deals with JSON output based on triple list.
 	 */
-    public class Jsonify
+	public class Jsonify //: IInput
     {
-    	
+    
+		public  static List<Triple> readTriples(string filePath){
+			String data = File.ReadAllText(filePath);
+    		
+			List<Triple> dicto = JsonConvert.DeserializeObject<List<Triple>>(data);
+			
+    		
+			
+			JavaScriptSerializer jss = new JavaScriptSerializer();
+    		
+    		List<Triple> dict = jss.Deserialize<List<Triple>>(data);
+    		
+			return dicto;
+			
+			
+			//return new List<Triple>();
+		}
+		public static  List<Triple> readPatternTriples(string filePath){
+			return new List<Triple>();
+		}
+		public static List<LexCollection> readLexicalizations(string filePath){
+			return new List<LexCollection>();
+		}
+			
     	/**
     	 * This method returns JSON string based on triple list.
     	 * 
@@ -29,7 +54,7 @@ namespace DAO
 	 	 * @return String
     	 */
     	public static String me(List<Triple> list) {
-    		return JsonSerializer.SerializeToString(list);	
+    		return "";//JsonSerializer.SerializeToString(list);	
     	}
     	
     	//TODO: fill me
@@ -72,7 +97,8 @@ namespace DAO
 			return dict;
     	}
     	
-//    	public static void Main() {
+    	public static void Main() {
+    		
 //    		String content = fromFile("../../../data.json");
 //    		
 //			JavaScriptSerializer jss = new JavaScriptSerializer();
@@ -83,8 +109,32 @@ namespace DAO
 //			}
 			
 			
-    		/*
-    		List<Triple> list = new List<Triple>();
+			/*List<Triple> triples = readTriples("../../../triples.json");
+			foreach(Triple t in triples){
+				
+				Console.WriteLine(t.ToString());
+			}*/
+			Entity obj = new Entity("Fort I", new EntityType("Zamek"));
+//    		Entity property = new Entity("zostalZbudowany", new EntityType("zostalZbudowany"));
+//    		Entity subject = new Entity("1922-1960", new EntityType("rok"));
+//    		
+//    		Triple t = new Triple(obj, property, subject);
+			
+			//File.WriteAllText("../../../triples.json", JsonConvert.SerializeObject(obj,Formatting.Indented,
+  //new JsonSerializerSettings { }) );
+    		
+			
+			String data = File.ReadAllText("../../../triples.json");
+			
+			
+			Entity dicto = JsonConvert.DeserializeObject<Entity>(data);
+			
+			
+			Console.WriteLine(dicto.ToString());
+			
+			
+    		
+    		/*List<Triple> list = new List<Triple>();
     		
     		Entity obj = new Entity("Fort I", new EntityType("Zamek"));
     		Entity property = new Entity("zostalZbudowany", new EntityType("zostalZbudowany"));
@@ -93,10 +143,14 @@ namespace DAO
     		Triple t = new Triple(obj, property, subject);
     		list.Add(t);
     		
-    		Console.WriteLine(JsonSerializer.SerializeToString(list));
+    		File.WriteAllText("../../../triples.json",
+    		                  JsonConvert.SerializeObject(list)
+    		                 // JsonSerializer.SerializeToString(list)
+    		                 );
+    		//Console.WriteLine(JsonSerializer.SerializeToString(list));
     		*/
     		
-//    		Console.ReadKey();
-//    	}
+    		Console.ReadKey();
+    	}
     }
 }

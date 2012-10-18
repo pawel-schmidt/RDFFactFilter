@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using Newtonsoft.Json;
 /**
  * RDF triple object which contains info about object, property and subject.
  * @author pawelschmidt
@@ -25,15 +25,19 @@ namespace RDFRepresentation {
             this.property = property;
             this.subject = subject;
         }
+        
+        public Triple() {
+        }
 
+        
         public Entity Object {
             get { return @object; }
         }
-
+		
         public Entity Subject {
             get { return subject; }
         }
-
+		
         public Entity Property {
             get { return property; }
         }

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using Newtonsoft.Json;
 
 /**
  * Entity representation with value and type fields.
@@ -22,6 +23,10 @@ namespace RDFRepresentation {
             this.type = type;
         }
 
+        public Entity(){
+        	
+        }
+      
         public String Name {
             get { return value; }
         }
