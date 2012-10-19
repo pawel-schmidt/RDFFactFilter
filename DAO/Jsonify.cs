@@ -30,7 +30,13 @@ namespace DAO
 		 */ 
 		public List<Triple> readTriples(string filePath) {
 			String data = File.ReadAllText(filePath);
-			List<Triple> list = JsonConvert.DeserializeObject<List<Triple>>(data);
+			List<Triple> list;
+			
+			try{
+				list = JsonConvert.DeserializeObject<List<Triple>>(data);
+			}catch(JsonReaderException e){
+				list = new List<Triple>();
+			}
    			return list;
 		}
 		
@@ -54,7 +60,13 @@ namespace DAO
 			
 			String data = File.ReadAllText(filePath);
 			
-			List<LexCollection> list = JsonConvert.DeserializeObject<List<LexCollection>>(data);
+			List<LexCollection> list;
+			
+			try{
+				list = JsonConvert.DeserializeObject<List<LexCollection>>(data);
+			}catch(JsonReaderException e){
+				list = new List<LexCollection>();
+			}
    			return list;
 		}
 
@@ -119,7 +131,7 @@ namespace DAO
     	/**
     	 * Junkyard
     	 */
-    	//public static void Main() {
+    	public static void Main() {
     		
     		//DO NOT EVEN LOOK AT THIS MESS BELOW
     		
@@ -184,23 +196,30 @@ namespace DAO
 			//Console.WriteLine(dicto.ToString());
 
     		
-    		/*List<Triple> list = new List<Triple>();
+    		List<Triple> list = new List<Triple>();
     		
-    		Entity obj = new Entity("Fort I", new EntityType("Zamek"));
+    		Entity obj = new Entity("Fort I", new EntityType("Budowla"));
     		Entity property = new Entity("zostalZbudowany", new EntityType("zostalZbudowany"));
     		Entity subject = new Entity("1922-1960", new EntityType("rok"));
     		
+    		
+    		Entity obj2 = new Entity("Colloseum", new EntityType("BUdowla"));
+    		Entity property2 = new Entity("zostalZbudowany", new EntityType("zostalZbudowany"));
+    		Entity subject2 = new Entity("200 p.n.e", new EntityType("rok"));
+    		
     		Triple t = new Triple(obj, property, subject);
+    		Triple t2 = new Triple(obj2, property2, subject2);
     		list.Add(t);
+    		list.Add(t2);
     		
     		File.WriteAllText("../../../triples.json",
-    		                  JsonConvert.SerializeObject(list)
+    		                  JsonConvert.SerializeObject(list, Formatting.Indented)
     		                 // JsonSerializer.SerializeToString(list)
     		                 );
     		//Console.WriteLine(JsonSerializer.SerializeToString(list));
-    		*/
+    		
     		
     		//Console.ReadKey();
-    	//}
+    	}
     }
 }
