@@ -8,8 +8,6 @@ using System.Threading.Tasks;
 namespace Filtering {
     public class FilteringMachine {
 
-        private static List<Triple> lastResult;
-
         /// <summary>
         /// Method used to filter facts from (phrase) triples.
         /// </summary>
@@ -48,20 +46,7 @@ namespace Filtering {
                 }
                 outer: {}
             }
-            lastResult = result;
             return result;
-        }
-
-        public static List<Triple> LastResult {
-            get { return FilteringMachine.lastResult; }
-        }
-
-        /// <summary>
-        /// Saves last result of filtering to file.
-        /// </summary>
-        /// <param name="filePath">Path to file to save.</param>
-        public static void saveLastResult(String filePath) {
-            // TODO: Jsonify.saveGame(lastResult, filePath);
         }
     }
 }

@@ -77,7 +77,7 @@ namespace TestingGUI {
             saveFileDialog.FileName = "[name]_filtered_triples.json";
 
             if (saveFileDialog.ShowDialog() == System.Windows.Forms.DialogResult.OK) {
-                output.save(FilteringMachine.LastResult, saveFileDialog.FileName);
+                output.save(filteredTriples, saveFileDialog.FileName);
             }
         }
     }
