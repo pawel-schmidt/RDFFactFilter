@@ -31,7 +31,7 @@ namespace RDFRepresentation {
 
         
         public override string ToString() {
-            return "<\"" + @object + "\":" + @object.type + ", \"" + property + "\", \"" + subject + "\":" + subject.type + ">";
+            return "<\"" + @object + "\":" + @object.type + ", \"" + property + "\":" + property.type + ", \"" + subject + "\":" + subject.type + ">";
         }
     }
 }

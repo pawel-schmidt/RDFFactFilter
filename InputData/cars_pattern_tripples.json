@@ -1,0 +1,53 @@
+[
+    {
+        "object": {
+            "type": {
+                "Name": "producent"
+            }
+        }, 
+        "property": {
+            "type": {
+                "Name": "relacjaWytworzył"
+            }
+        }, 
+        "subject": {
+            "type": {
+                "Name": "model auta"
+            }
+        }
+    }, 
+    {
+        "object": {
+            "type": {
+                "Name": "producent"
+            }
+        }, 
+        "property": {
+            "type": {
+                "Name": "relacjaSprzedał"
+            }
+        }, 
+        "subject": {
+            "type": {
+                "Name": "model auta"
+            }
+        }
+    }, 
+    {
+        "object": {
+            "type": {
+                "Name": "producent"
+            }
+        }, 
+        "property": {
+            "type": {
+                "Name": "relacjaWytworzył"
+            }
+        }, 
+        "subject": {
+            "type": {
+                "Name": "drzwi"
+            }
+        }
+    }
+]

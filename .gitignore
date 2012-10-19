@@ -1,5 +1,5 @@
 # Contains temp files:
-DAO/obj/
-Filtering/obj/
-RDFRepresentation/obj/
-TestingGUI/obj/
+*/obj/
+
+# Contains binaries
+*/bin/

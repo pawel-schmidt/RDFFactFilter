@@ -1,0 +1,2356 @@
+[
+  {
+    "object": {
+      "name": "AMO ZiL (Avtomobilnoe Moskovskoe Obshchestvo - Zavod Imeni Likhachova)"
+    }, 
+    "property": {
+      "name": "wyprodukował"
+    }, 
+    "subject": {
+      "name": "ZIL-114"
+    }
+  }, 
+  {
+    "object": {
+      "name": "AMO ZiL (Avtomobilnoe Moskovskoe Obshchestvo - Zavod Imeni Likhachova)"
+    }, 
+    "property": {
+      "name": "sprzedał"
+    }, 
+    "subject": {
+      "name": "ZIL-4104"
+    }
+  }, 
+  {
+    "object": {
+      "name": "AMO ZiL (Avtomobilnoe Moskovskoe Obshchestvo - Zavod Imeni Likhachova)"
+    }, 
+    "property": {
+      "name": "zaprojektował"
+    }, 
+    "subject": {
+      "name": "ZIL-41041"
+    }
+  }, 
+  {
+    "object": {
+      "name": "AMO ZiL (Avtomobilnoe Moskovskoe Obshchestvo - Zavod Imeni Likhachova)"
+    }, 
+    "property": {
+      "name": "wyprodukował"
+    }, 
+    "subject": {
+      "name": "ZIL-41047"
+    }
+  }, 
+  {
+    "object": {
+      "name": "AMO ZiL (Avtomobilnoe Moskovskoe Obshchestvo - Zavod Imeni Likhachova)"
+    }, 
+    "property": {
+      "name": "wyprodukował"
+    }, 
+    "subject": {
+      "name": "ZiL-111"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Audi"
+    }, 
+    "property": {
+      "name": "wyprodukował"
+    }, 
+    "subject": {
+      "name": "Audi V8"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Automobiles CITROËN"
+    }, 
+    "property": {
+      "name": "stworzył"
+    }, 
+    "subject": {
+      "name": "Citroën C6"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Automobiles CITROËN"
+    }, 
+    "property": {
+      "name": "wyprodukował"
+    }, 
+    "subject": {
+      "name": "Citroën SM"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Bayerische Motoren Werke AG"
+    }, 
+    "property": {
+      "name": "wyprodukował"
+    }, 
+    "subject": {
+      "name": "BMW 7-Series (E23)"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Bayerische Motoren Werke AG"
+    }, 
+    "property": {
+      "name": "wyprodukował"
+    }, 
+    "subject": {
+      "name": "BMW 7-Series (E32)"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Blue Bird Corporation"
+    }, 
+    "property": {
+      "name": "wyprodukował"
+    }, 
+    "subject": {
+      "name": "Blue Bird Wanderlodge"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Bugatti"
+    }, 
+    "property": {
+      "name": "wyprodukował"
+    }, 
+    "subject": {
+      "name": "Bugatti Royale"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Bugatti"
+    }, 
+    "property": {
+      "name": "zbudował"
+    }, 
+    "subject": {
+      "name": "Bugatti Type 41"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Chrysler Group LLC"
+    }, 
+    "property": {
+      "name": "zbudował"
+    }, 
+    "subject": {
+      "name": "Chrysler 300"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Chrysler Group LLC"
+    }, 
+    "property": {
+      "name": "zbudował"
+    }, 
+    "subject": {
+      "name": "Chrysler Cordoba"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Chrysler Group LLC"
+    }, 
+    "property": {
+      "name": "zbudował"
+    }, 
+    "subject": {
+      "name": "Chrysler Executive"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Chrysler Group LLC"
+    }, 
+    "property": {
+      "name": "zbudował"
+    }, 
+    "subject": {
+      "name": "Chrysler TC by Maserati"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Chrysler Group LLC"
+    }, 
+    "property": {
+      "name": "zbudował"
+    }, 
+    "subject": {
+      "name": "Imperial"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Facel SA"
+    }, 
+    "property": {
+      "name": "zbudował"
+    }, 
+    "subject": {
+      "name": "Facel-Vega Excellence"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Fiat S.p.A."
+    }, 
+    "property": {
+      "name": "zbudował"
+    }, 
+    "subject": {
+      "name": "Fiat 24-32 HP"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Fiat S.p.A."
+    }, 
+    "property": {
+      "name": "wytworzył"
+    }, 
+    "subject": {
+      "name": "Fiat 520"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Fiat S.p.A."
+    }, 
+    "property": {
+      "name": "zaprojektował"
+    }, 
+    "subject": {
+      "name": "Fiat 60 HP"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Ford Lincoln"
+    }, 
+    "property": {
+      "name": "zbudował"
+    }, 
+    "subject": {
+      "name": "Lincoln Versailles"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Ford Motor Company"
+    }, 
+    "property": {
+      "name": "zbudował"
+    }, 
+    "subject": {
+      "name": "Lincoln Continental Mark VI"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Ford Motor Company"
+    }, 
+    "property": {
+      "name": "zbudował"
+    }, 
+    "subject": {
+      "name": "Lincoln Mark VIII"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Ford Motor Company of Australia"
+    }, 
+    "property": {
+      "name": "zbudował"
+    }, 
+    "subject": {
+      "name": "Ford Fairlane"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Ford Motor Company of Australia"
+    }, 
+    "property": {
+      "name": "wyprodukował"
+    }, 
+    "subject": {
+      "name": "Ford LTD"
+    }
+  }, 
+  {
+    "object": {
+      "name": "GM Holden Ltd"
+    }, 
+    "property": {
+      "name": "zbudował"
+    }, 
+    "subject": {
+      "name": "Buick Park Avenue"
+    }
+  }, 
+  {
+    "object": {
+      "name": "GM Holden Ltd"
+    }, 
+    "property": {
+      "name": "stworzył"
+    }, 
+    "subject": {
+      "name": "Buick Royaum"
+    }
+  }, 
+  {
+    "object": {
+      "name": "GM Holden Ltd"
+    }, 
+    "property": {
+      "name": "zbudował"
+    }, 
+    "subject": {
+      "name": "Chevrolet Caprice"
+    }
+  }, 
+  {
+    "object": {
+      "name": "GM Holden Ltd"
+    }, 
+    "property": {
+      "name": "wycofał ze sprzedaży"
+    }, 
+    "subject": {
+      "name": "Daewoo Statesman"
+    }
+  }, 
+  {
+    "object": {
+      "name": "GM Holden Ltd"
+    }, 
+    "property": {
+      "name": "zaprojektował"
+    }, 
+    "subject": {
+      "name": "Daewoo Veritas"
+    }
+  }, 
+  {
+    "object": {
+      "name": "GM Holden Ltd"
+    }, 
+    "property": {
+      "name": "zaprojektował"
+    }, 
+    "subject": {
+      "name": "Holden Caprice"
+    }
+  }, 
+  {
+    "object": {
+      "name": "GM Holden Ltd"
+    }, 
+    "property": {
+      "name": "zaprojektował"
+    }, 
+    "subject": {
+      "name": "Holden Statesman"
+    }
+  }, 
+  {
+    "object": {
+      "name": "General Motors Company"
+    }, 
+    "property": {
+      "name": "wycofał ze sprzedaży"
+    }, 
+    "subject": {
+      "name": "Oldsmobile Toronado"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Honda Giken Kogyo Kabushiki-gaisha"
+    }, 
+    "property": {
+      "name": "wycofał ze sprzedaży"
+    }, 
+    "subject": {
+      "name": "Acura Legend (1985-1995)"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Honda Giken Kogyo Kabushiki-gaisha"
+    }, 
+    "property": {
+      "name": "wycofał ze sprzedaży"
+    }, 
+    "subject": {
+      "name": "Acura RL (1996-present)"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Honda Giken Kogyo Kabushiki-gaisha"
+    }, 
+    "property": {
+      "name": "wycofał ze sprzedaży"
+    }, 
+    "subject": {
+      "name": "Acura ZDX"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Honda Giken Kogyo Kabushiki-gaisha"
+    }, 
+    "property": {
+      "name": "stworzył"
+    }, 
+    "subject": {
+      "name": "Daewoo Arcadia (1994-1999)"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Honda Giken Kogyo Kabushiki-gaisha"
+    }, 
+    "property": {
+      "name": "wycofał ze sprzedaży"
+    }, 
+    "subject": {
+      "name": "Honda Elysion"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Honda Giken Kogyo Kabushiki-gaisha"
+    }, 
+    "property": {
+      "name": "wytworzył"
+    }, 
+    "subject": {
+      "name": "Honda Legend"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Honda Motor Company, Ltd."
+    }, 
+    "property": {
+      "name": "wycofał ze sprzedaży"
+    }, 
+    "subject": {
+      "name": "Acura Legend (1985-1995)"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Honda Motor Company, Ltd."
+    }, 
+    "property": {
+      "name": "wycofał ze sprzedaży"
+    }, 
+    "subject": {
+      "name": "Acura RL (1996-present)"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Honda Motor Company, Ltd."
+    }, 
+    "property": {
+      "name": "wyprodukował"
+    }, 
+    "subject": {
+      "name": "Acura ZDX"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Honda Motor Company, Ltd."
+    }, 
+    "property": {
+      "name": "wyprodukował"
+    }, 
+    "subject": {
+      "name": "Daewoo Arcadia (1994-1999)"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Honda Motor Company, Ltd."
+    }, 
+    "property": {
+      "name": "sprzedał"
+    }, 
+    "subject": {
+      "name": "Honda Elysion"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Honda Motor Company, Ltd."
+    }, 
+    "property": {
+      "name": "wyprodukował"
+    }, 
+    "subject": {
+      "name": "Honda Legend"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Hyundai Motor Company"
+    }, 
+    "property": {
+      "name": "zbudował"
+    }, 
+    "subject": {
+      "name": "Hyundai Dynasty"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Hyundai Motor Company"
+    }, 
+    "property": {
+      "name": "wyprodukował"
+    }, 
+    "subject": {
+      "name": "Hyundai Equus"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Hyundai Motor Company"
+    }, 
+    "property": {
+      "name": "wytworzył"
+    }, 
+    "subject": {
+      "name": "Hyundai Genesis"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Hyundai Motor Company"
+    }, 
+    "property": {
+      "name": "zbudował"
+    }, 
+    "subject": {
+      "name": "Hyundai Grandeur"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Hyundai Motor Company"
+    }, 
+    "property": {
+      "name": "zaprojektował"
+    }, 
+    "subject": {
+      "name": "Hyundai Rohens (China)"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Jensen Motors, Ltd"
+    }, 
+    "property": {
+      "name": "zaprojektował"
+    }, 
+    "subject": {
+      "name": "Jensen 541 S"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Jensen Motors, Ltd"
+    }, 
+    "property": {
+      "name": "sprzedał"
+    }, 
+    "subject": {
+      "name": "Jensen CV8"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Jensen Motors, Ltd"
+    }, 
+    "property": {
+      "name": "sprzedał"
+    }, 
+    "subject": {
+      "name": "Jensen FF"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Jensen Motors, Ltd"
+    }, 
+    "property": {
+      "name": "zaprojektował"
+    }, 
+    "subject": {
+      "name": "Jensen Interceptor"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Kanto Auto Works"
+    }, 
+    "property": {
+      "name": "zaprojektował"
+    }, 
+    "subject": {
+      "name": "First generation"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Kanto Auto Works"
+    }, 
+    "property": {
+      "name": "zaprojektował"
+    }, 
+    "subject": {
+      "name": "Toyota Verossa"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Land Rover"
+    }, 
+    "property": {
+      "name": "zaprojektował"
+    }, 
+    "subject": {
+      "name": "Range Rover"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Land Rover"
+    }, 
+    "property": {
+      "name": "zaprojektował"
+    }, 
+    "subject": {
+      "name": "Range Rover \"Classic\""
+    }
+  }, 
+  {
+    "object": {
+      "name": "Land Rover"
+    }, 
+    "property": {
+      "name": "zbudował"
+    }, 
+    "subject": {
+      "name": "Range Rover (L322)"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Land Rover"
+    }, 
+    "property": {
+      "name": "zbudował"
+    }, 
+    "subject": {
+      "name": "Range Rover (P38A)"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Maserati S.p.A."
+    }, 
+    "property": {
+      "name": "zbudował"
+    }, 
+    "subject": {
+      "name": "Chrysler TC by Maserati"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Matsuda Kabushiki-gaisha"
+    }, 
+    "property": {
+      "name": "zbudował"
+    }, 
+    "subject": {
+      "name": "Amati 1000"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Matsuda Kabushiki-gaisha"
+    }, 
+    "property": {
+      "name": "zbudował"
+    }, 
+    "subject": {
+      "name": "Amati 1200"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Matsuda Kabushiki-gaisha"
+    }, 
+    "property": {
+      "name": "sprzedał"
+    }, 
+    "subject": {
+      "name": "Efini MS-8"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Matsuda Kabushiki-gaisha"
+    }, 
+    "property": {
+      "name": "zbudował"
+    }, 
+    "subject": {
+      "name": "Eunos 300"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Matsuda Kabushiki-gaisha"
+    }, 
+    "property": {
+      "name": "zbudował"
+    }, 
+    "subject": {
+      "name": "Eunos 500"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Matsuda Kabushiki-gaisha"
+    }, 
+    "property": {
+      "name": "zbudował"
+    }, 
+    "subject": {
+      "name": "Eunos 800"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Matsuda Kabushiki-gaisha"
+    }, 
+    "property": {
+      "name": "zbudował"
+    }, 
+    "subject": {
+      "name": "Kia Enterprise"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Matsuda Kabushiki-gaisha"
+    }, 
+    "property": {
+      "name": "sprzedał"
+    }, 
+    "subject": {
+      "name": "Mazda 929"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Matsuda Kabushiki-gaisha"
+    }, 
+    "property": {
+      "name": "zbudował"
+    }, 
+    "subject": {
+      "name": "Mazda 929"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Matsuda Kabushiki-gaisha"
+    }, 
+    "property": {
+      "name": "wycofał ze sprzedaży"
+    }, 
+    "subject": {
+      "name": "Mazda 929 Serenia"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Matsuda Kabushiki-gaisha"
+    }, 
+    "property": {
+      "name": "wyprodukował"
+    }, 
+    "subject": {
+      "name": "Mazda Luce"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Matsuda Kabushiki-gaisha"
+    }, 
+    "property": {
+      "name": "wyprodukował"
+    }, 
+    "subject": {
+      "name": "Mazda Luce"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Matsuda Kabushiki-gaisha"
+    }, 
+    "property": {
+      "name": "zbudował"
+    }, 
+    "subject": {
+      "name": "Mazda Millenia"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Matsuda Kabushiki-gaisha"
+    }, 
+    "property": {
+      "name": "zbudował"
+    }, 
+    "subject": {
+      "name": "Mazda Persona"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Matsuda Kabushiki-gaisha"
+    }, 
+    "property": {
+      "name": "zbudował"
+    }, 
+    "subject": {
+      "name": "Mazda Sentia"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Matsuda Kabushiki-gaisha"
+    }, 
+    "property": {
+      "name": "zbudował"
+    }, 
+    "subject": {
+      "name": "Mazda Xedos 6"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Matsuda Kabushiki-gaisha"
+    }, 
+    "property": {
+      "name": "zbudował"
+    }, 
+    "subject": {
+      "name": "Mazda Xedos 9"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Matsuda Kabushiki-gaisha"
+    }, 
+    "property": {
+      "name": "zbudował"
+    }, 
+    "subject": {
+      "name": "Ẽfini MS-9"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Mazda Motor Corporation"
+    }, 
+    "property": {
+      "name": "wyprodukował"
+    }, 
+    "subject": {
+      "name": "Amati 1000"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Mazda Motor Corporation"
+    }, 
+    "property": {
+      "name": "sprzedał"
+    }, 
+    "subject": {
+      "name": "Amati 1200"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Mazda Motor Corporation"
+    }, 
+    "property": {
+      "name": "wyprodukował"
+    }, 
+    "subject": {
+      "name": "Efini MS-8"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Mazda Motor Corporation"
+    }, 
+    "property": {
+      "name": "wyprodukował"
+    }, 
+    "subject": {
+      "name": "Eunos 300"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Mazda Motor Corporation"
+    }, 
+    "property": {
+      "name": "wyprodukował"
+    }, 
+    "subject": {
+      "name": "Eunos 500"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Mazda Motor Corporation"
+    }, 
+    "property": {
+      "name": "wyprodukował"
+    }, 
+    "subject": {
+      "name": "Eunos 800"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Mazda Motor Corporation"
+    }, 
+    "property": {
+      "name": "stworzył"
+    }, 
+    "subject": {
+      "name": "Kia Enterprise"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Mazda Motor Corporation"
+    }, 
+    "property": {
+      "name": "stworzył"
+    }, 
+    "subject": {
+      "name": "Mazda 929"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Mazda Motor Corporation"
+    }, 
+    "property": {
+      "name": "stworzył"
+    }, 
+    "subject": {
+      "name": "Mazda 929"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Mazda Motor Corporation"
+    }, 
+    "property": {
+      "name": "wyprodukował"
+    }, 
+    "subject": {
+      "name": "Mazda 929 Serenia"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Mazda Motor Corporation"
+    }, 
+    "property": {
+      "name": "wyprodukował"
+    }, 
+    "subject": {
+      "name": "Mazda Luce"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Mazda Motor Corporation"
+    }, 
+    "property": {
+      "name": "wyprodukował"
+    }, 
+    "subject": {
+      "name": "Mazda Luce"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Mazda Motor Corporation"
+    }, 
+    "property": {
+      "name": "wyprodukował"
+    }, 
+    "subject": {
+      "name": "Mazda Millenia"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Mazda Motor Corporation"
+    }, 
+    "property": {
+      "name": "wyprodukował"
+    }, 
+    "subject": {
+      "name": "Mazda Persona"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Mazda Motor Corporation"
+    }, 
+    "property": {
+      "name": "wyprodukował"
+    }, 
+    "subject": {
+      "name": "Mazda Sentia"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Mazda Motor Corporation"
+    }, 
+    "property": {
+      "name": "wycofał ze sprzedaży"
+    }, 
+    "subject": {
+      "name": "Mazda Xedos 6"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Mazda Motor Corporation"
+    }, 
+    "property": {
+      "name": "wyprodukował"
+    }, 
+    "subject": {
+      "name": "Mazda Xedos 9"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Mazda Motor Corporation"
+    }, 
+    "property": {
+      "name": "wyprodukował"
+    }, 
+    "subject": {
+      "name": "Ẽfini MS-9"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Mercedes-Benz"
+    }, 
+    "property": {
+      "name": "wyprodukował"
+    }, 
+    "subject": {
+      "name": "Mercedes-Benz W126"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Mercedes-Benz"
+    }, 
+    "property": {
+      "name": "zaprojektował"
+    }, 
+    "subject": {
+      "name": "Mercedes-Benz W140"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Mercedes-Benz"
+    }, 
+    "property": {
+      "name": "wyprodukował"
+    }, 
+    "subject": {
+      "name": "Mercedes-Benz W221"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Mitsubishi Motors Corporation"
+    }, 
+    "property": {
+      "name": "wytworzył"
+    }, 
+    "subject": {
+      "name": "Mitsubishi Debonair"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Mitsubishi Motors Corporation"
+    }, 
+    "property": {
+      "name": "wyprodukował"
+    }, 
+    "subject": {
+      "name": "Mitsubishi Dignity"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Mitsubishi Motors Corporation"
+    }, 
+    "property": {
+      "name": "wyprodukował"
+    }, 
+    "subject": {
+      "name": "Mitsubishi Proudia"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Nissan Jidosha Kabushiki-gaisha"
+    }, 
+    "property": {
+      "name": "wyprodukował"
+    }, 
+    "subject": {
+      "name": "Datsun Laurel (Europe)"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Nissan Jidosha Kabushiki-gaisha"
+    }, 
+    "property": {
+      "name": "wyprodukował"
+    }, 
+    "subject": {
+      "name": "Infiniti EX (J50)"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Nissan Jidosha Kabushiki-gaisha"
+    }, 
+    "property": {
+      "name": "wytworzył"
+    }, 
+    "subject": {
+      "name": "Infiniti M (model years 2006-present)"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Nissan Jidosha Kabushiki-gaisha"
+    }, 
+    "property": {
+      "name": "wyprodukował"
+    }, 
+    "subject": {
+      "name": "Infiniti M45"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Nissan Jidosha Kabushiki-gaisha"
+    }, 
+    "property": {
+      "name": "zbudował"
+    }, 
+    "subject": {
+      "name": "Infiniti Q45"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Nissan Jidosha Kabushiki-gaisha"
+    }, 
+    "property": {
+      "name": "wycofał ze sprzedaży"
+    }, 
+    "subject": {
+      "name": "Isuzu Fargo Filly"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Nissan Jidosha Kabushiki-gaisha"
+    }, 
+    "property": {
+      "name": "wytworzył"
+    }, 
+    "subject": {
+      "name": "Isuzu Filly"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Nissan Jidosha Kabushiki-gaisha"
+    }, 
+    "property": {
+      "name": "wytworzył"
+    }, 
+    "subject": {
+      "name": "Nissan 300C"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Nissan Jidosha Kabushiki-gaisha"
+    }, 
+    "property": {
+      "name": "zaprojektował"
+    }, 
+    "subject": {
+      "name": "Nissan Caravan Elgrand"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Nissan Jidosha Kabushiki-gaisha"
+    }, 
+    "property": {
+      "name": "wyprodukował"
+    }, 
+    "subject": {
+      "name": "Nissan Cedric"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Nissan Jidosha Kabushiki-gaisha"
+    }, 
+    "property": {
+      "name": "wyprodukował"
+    }, 
+    "subject": {
+      "name": "Nissan Cedric Y30 series"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Nissan Jidosha Kabushiki-gaisha"
+    }, 
+    "property": {
+      "name": "wyprodukował"
+    }, 
+    "subject": {
+      "name": "Nissan Cima"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Nissan Jidosha Kabushiki-gaisha"
+    }, 
+    "property": {
+      "name": "wyprodukował"
+    }, 
+    "subject": {
+      "name": "Nissan Elgrand"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Nissan Jidosha Kabushiki-gaisha"
+    }, 
+    "property": {
+      "name": "wyprodukował"
+    }, 
+    "subject": {
+      "name": "Nissan Gloria"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Nissan Jidosha Kabushiki-gaisha"
+    }, 
+    "property": {
+      "name": "wycofał ze sprzedaży"
+    }, 
+    "subject": {
+      "name": "Nissan Homy Elgrand"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Nissan Jidosha Kabushiki-gaisha"
+    }, 
+    "property": {
+      "name": "wyprodukował"
+    }, 
+    "subject": {
+      "name": "Nissan Laurel"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Nissan Jidosha Kabushiki-gaisha"
+    }, 
+    "property": {
+      "name": "wyprodukował"
+    }, 
+    "subject": {
+      "name": "Nissan President"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Nissan Jidosha Kabushiki-gaisha"
+    }, 
+    "property": {
+      "name": "wyprodukował"
+    }, 
+    "subject": {
+      "name": "Nissan Prince Royal"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Nissan Jidosha Kabushiki-gaisha"
+    }, 
+    "property": {
+      "name": "sprzedał"
+    }, 
+    "subject": {
+      "name": "Nissan Skyline Crossover (Japan)"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Nissan Jidosha Kabushiki-gaisha"
+    }, 
+    "property": {
+      "name": "wyprodukował"
+    }, 
+    "subject": {
+      "name": "Prince Gloria"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Nissan Motor Company Ltd"
+    }, 
+    "property": {
+      "name": "wycofał ze sprzedaży"
+    }, 
+    "subject": {
+      "name": "Datsun Laurel (Europe)"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Nissan Motor Company Ltd"
+    }, 
+    "property": {
+      "name": "zbudował"
+    }, 
+    "subject": {
+      "name": "Infiniti EX (J50)"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Nissan Motor Company Ltd"
+    }, 
+    "property": {
+      "name": "wycofał ze sprzedaży"
+    }, 
+    "subject": {
+      "name": "Infiniti M (model years 2006-present)"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Nissan Motor Company Ltd"
+    }, 
+    "property": {
+      "name": "wyprodukował"
+    }, 
+    "subject": {
+      "name": "Infiniti M45"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Nissan Motor Company Ltd"
+    }, 
+    "property": {
+      "name": "wyprodukował"
+    }, 
+    "subject": {
+      "name": "Infiniti Q45"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Nissan Motor Company Ltd"
+    }, 
+    "property": {
+      "name": "wyprodukował"
+    }, 
+    "subject": {
+      "name": "Isuzu Fargo Filly"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Nissan Motor Company Ltd"
+    }, 
+    "property": {
+      "name": "wyprodukował"
+    }, 
+    "subject": {
+      "name": "Isuzu Filly"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Nissan Motor Company Ltd"
+    }, 
+    "property": {
+      "name": "wyprodukował"
+    }, 
+    "subject": {
+      "name": "Nissan 300C"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Nissan Motor Company Ltd"
+    }, 
+    "property": {
+      "name": "zaprojektował"
+    }, 
+    "subject": {
+      "name": "Nissan Caravan Elgrand"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Nissan Motor Company Ltd"
+    }, 
+    "property": {
+      "name": "wyprodukował"
+    }, 
+    "subject": {
+      "name": "Nissan Cedric"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Nissan Motor Company Ltd"
+    }, 
+    "property": {
+      "name": "wyprodukował"
+    }, 
+    "subject": {
+      "name": "Nissan Cedric Y30 series"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Nissan Motor Company Ltd"
+    }, 
+    "property": {
+      "name": "sprzedał"
+    }, 
+    "subject": {
+      "name": "Nissan Cima"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Nissan Motor Company Ltd"
+    }, 
+    "property": {
+      "name": "wyprodukował"
+    }, 
+    "subject": {
+      "name": "Nissan Elgrand"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Nissan Motor Company Ltd"
+    }, 
+    "property": {
+      "name": "stworzył"
+    }, 
+    "subject": {
+      "name": "Nissan Gloria"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Nissan Motor Company Ltd"
+    }, 
+    "property": {
+      "name": "wyprodukował"
+    }, 
+    "subject": {
+      "name": "Nissan Homy Elgrand"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Nissan Motor Company Ltd"
+    }, 
+    "property": {
+      "name": "wyprodukował"
+    }, 
+    "subject": {
+      "name": "Nissan Laurel"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Nissan Motor Company Ltd"
+    }, 
+    "property": {
+      "name": "wycofał ze sprzedaży"
+    }, 
+    "subject": {
+      "name": "Nissan President"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Nissan Motor Company Ltd"
+    }, 
+    "property": {
+      "name": "wycofał ze sprzedaży"
+    }, 
+    "subject": {
+      "name": "Nissan Prince Royal"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Nissan Motor Company Ltd"
+    }, 
+    "property": {
+      "name": "wyprodukował"
+    }, 
+    "subject": {
+      "name": "Nissan Skyline Crossover (Japan)"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Nissan Motor Company Ltd"
+    }, 
+    "property": {
+      "name": "wyprodukował"
+    }, 
+    "subject": {
+      "name": "Prince Gloria"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Porsche Automobile Holding"
+    }, 
+    "property": {
+      "name": "zaprojektował"
+    }, 
+    "subject": {
+      "name": "Porsche Panamera (970)"
+    }
+  }, 
+  {
+    "object": {
+      "name": "SsangYong Motor Company"
+    }, 
+    "property": {
+      "name": "wyprodukował"
+    }, 
+    "subject": {
+      "name": "SsangYong Chairman"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Toyota Jidosha Kabushiki-gaisha"
+    }, 
+    "property": {
+      "name": "wyprodukował"
+    }, 
+    "subject": {
+      "name": "Reiz"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Toyota Jidosha Kabushiki-gaisha"
+    }, 
+    "property": {
+      "name": "wyprodukował"
+    }, 
+    "subject": {
+      "name": "Toyota Alphard"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Toyota Jidosha Kabushiki-gaisha"
+    }, 
+    "property": {
+      "name": "wyprodukował"
+    }, 
+    "subject": {
+      "name": "Toyota Century"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Toyota Jidosha Kabushiki-gaisha"
+    }, 
+    "property": {
+      "name": "wyprodukował"
+    }, 
+    "subject": {
+      "name": "Toyota Crown"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Toyota Jidosha Kabushiki-gaisha"
+    }, 
+    "property": {
+      "name": "wytworzył"
+    }, 
+    "subject": {
+      "name": "Toyota Granvia"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Toyota Jidosha Kabushiki-gaisha"
+    }, 
+    "property": {
+      "name": "wytworzył"
+    }, 
+    "subject": {
+      "name": "Toyota Hiace"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Toyota Jidosha Kabushiki-gaisha"
+    }, 
+    "property": {
+      "name": "wyprodukował"
+    }, 
+    "subject": {
+      "name": "Toyota Hiace Solemio"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Toyota Jidosha Kabushiki-gaisha"
+    }, 
+    "property": {
+      "name": "zbudował"
+    }, 
+    "subject": {
+      "name": "Toyota Mark X (X120)"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Toyota Jidosha Kabushiki-gaisha"
+    }, 
+    "property": {
+      "name": "zbudował"
+    }, 
+    "subject": {
+      "name": "Toyota Progrès"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Toyota Jidosha Kabushiki-gaisha"
+    }, 
+    "property": {
+      "name": "wyprodukował"
+    }, 
+    "subject": {
+      "name": "Toyota Sembion (commercial van)"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Toyota Jidosha Kabushiki-gaisha"
+    }, 
+    "property": {
+      "name": "wyprodukował"
+    }, 
+    "subject": {
+      "name": "Toyota Vellfire"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Toyota Motor Corporation"
+    }, 
+    "property": {
+      "name": "wyprodukował"
+    }, 
+    "subject": {
+      "name": "Reiz"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Toyota Motor Corporation"
+    }, 
+    "property": {
+      "name": "wyprodukował"
+    }, 
+    "subject": {
+      "name": "Toyota Alphard"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Toyota Motor Corporation"
+    }, 
+    "property": {
+      "name": "wyprodukował"
+    }, 
+    "subject": {
+      "name": "Toyota Century"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Toyota Motor Corporation"
+    }, 
+    "property": {
+      "name": "wyprodukował"
+    }, 
+    "subject": {
+      "name": "Toyota Crown"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Toyota Motor Corporation"
+    }, 
+    "property": {
+      "name": "sprzedał"
+    }, 
+    "subject": {
+      "name": "Toyota Granvia"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Toyota Motor Corporation"
+    }, 
+    "property": {
+      "name": "wyprodukował"
+    }, 
+    "subject": {
+      "name": "Toyota Hiace"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Toyota Motor Corporation"
+    }, 
+    "property": {
+      "name": "wytworzył"
+    }, 
+    "subject": {
+      "name": "Toyota Hiace Solemio"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Toyota Motor Corporation"
+    }, 
+    "property": {
+      "name": "wyprodukował"
+    }, 
+    "subject": {
+      "name": "Toyota Mark X (X120)"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Toyota Motor Corporation"
+    }, 
+    "property": {
+      "name": "wyprodukował"
+    }, 
+    "subject": {
+      "name": "Toyota Progrès"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Toyota Motor Corporation"
+    }, 
+    "property": {
+      "name": "wyprodukował"
+    }, 
+    "subject": {
+      "name": "Toyota Sembion (commercial van)"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Toyota Motor Corporation"
+    }, 
+    "property": {
+      "name": "wyprodukował"
+    }, 
+    "subject": {
+      "name": "Toyota Vellfire"
+    }
+  }, 
+  {
+    "object": {
+      "name": "Volkswagen"
+    }, 
+    "property": {
+      "name": "wyprodukował"
+    }, 
+    "subject": {
+      "name": "Volkswagen Phaeton"
+    }
+  }, 
+  {
+    "object": {
+      "name": "トヨタ自動車株式会社"
+    }, 
+    "property": {
+      "name": "stworzył"
+    }, 
+    "subject": {
+      "name": "Reiz"
+    }
+  }, 
+  {
+    "object": {
+      "name": "トヨタ自動車株式会社"
+    }, 
+    "property": {
+      "name": "wyprodukował"
+    }, 
+    "subject": {
+      "name": "Toyota Alphard"
+    }
+  }, 
+  {
+    "object": {
+      "name": "トヨタ自動車株式会社"
+    }, 
+    "property": {
+      "name": "wyprodukował"
+    }, 
+    "subject": {
+      "name": "Toyota Century"
+    }
+  }, 
+  {
+    "object": {
+      "name": "トヨタ自動車株式会社"
+    }, 
+    "property": {
+      "name": "wyprodukował"
+    }, 
+    "subject": {
+      "name": "Toyota Crown"
+    }
+  }, 
+  {
+    "object": {
+      "name": "トヨタ自動車株式会社"
+    }, 
+    "property": {
+      "name": "wyprodukował"
+    }, 
+    "subject": {
+      "name": "Toyota Granvia"
+    }
+  }, 
+  {
+    "object": {
+      "name": "トヨタ自動車株式会社"
+    }, 
+    "property": {
+      "name": "wycofał ze sprzedaży"
+    }, 
+    "subject": {
+      "name": "Toyota Hiace"
+    }
+  }, 
+  {
+    "object": {
+      "name": "トヨタ自動車株式会社"
+    }, 
+    "property": {
+      "name": "wycofał ze sprzedaży"
+    }, 
+    "subject": {
+      "name": "Toyota Hiace Solemio"
+    }
+  }, 
+  {
+    "object": {
+      "name": "トヨタ自動車株式会社"
+    }, 
+    "property": {
+      "name": "wycofał ze sprzedaży"
+    }, 
+    "subject": {
+      "name": "Toyota Mark X (X120)"
+    }
+  }, 
+  {
+    "object": {
+      "name": "トヨタ自動車株式会社"
+    }, 
+    "property": {
+      "name": "wycofał ze sprzedaży"
+    }, 
+    "subject": {
+      "name": "Toyota Progrès"
+    }
+  }, 
+  {
+    "object": {
+      "name": "トヨタ自動車株式会社"
+    }, 
+    "property": {
+      "name": "wycofał ze sprzedaży"
+    }, 
+    "subject": {
+      "name": "Toyota Sembion (commercial van)"
+    }
+  }, 
+  {
+    "object": {
+      "name": "トヨタ自動車株式会社"
+    }, 
+    "property": {
+      "name": "wytworzył"
+    }, 
+    "subject": {
+      "name": "Toyota Vellfire"
+    }
+  }, 
+  {
+    "object": {
+      "name": "日産自動車株式会社"
+    }, 
+    "property": {
+      "name": "wycofał ze sprzedaży"
+    }, 
+    "subject": {
+      "name": "Datsun Laurel (Europe)"
+    }
+  }, 
+  {
+    "object": {
+      "name": "日産自動車株式会社"
+    }, 
+    "property": {
+      "name": "wyprodukował"
+    }, 
+    "subject": {
+      "name": "Infiniti EX (J50)"
+    }
+  }, 
+  {
+    "object": {
+      "name": "日産自動車株式会社"
+    }, 
+    "property": {
+      "name": "stworzył"
+    }, 
+    "subject": {
+      "name": "Infiniti M (model years 2006-present)"
+    }
+  }, 
+  {
+    "object": {
+      "name": "日産自動車株式会社"
+    }, 
+    "property": {
+      "name": "wyprodukował"
+    }, 
+    "subject": {
+      "name": "Infiniti M45"
+    }
+  }, 
+  {
+    "object": {
+      "name": "日産自動車株式会社"
+    }, 
+    "property": {
+      "name": "wycofał ze sprzedaży"
+    }, 
+    "subject": {
+      "name": "Infiniti Q45"
+    }
+  }, 
+  {
+    "object": {
+      "name": "日産自動車株式会社"
+    }, 
+    "property": {
+      "name": "wyprodukował"
+    }, 
+    "subject": {
+      "name": "Isuzu Fargo Filly"
+    }
+  }, 
+  {
+    "object": {
+      "name": "日産自動車株式会社"
+    }, 
+    "property": {
+      "name": "wyprodukował"
+    }, 
+    "subject": {
+      "name": "Isuzu Filly"
+    }
+  }, 
+  {
+    "object": {
+      "name": "日産自動車株式会社"
+    }, 
+    "property": {
+      "name": "wyprodukował"
+    }, 
+    "subject": {
+      "name": "Nissan 300C"
+    }
+  }, 
+  {
+    "object": {
+      "name": "日産自動車株式会社"
+    }, 
+    "property": {
+      "name": "wyprodukował"
+    }, 
+    "subject": {
+      "name": "Nissan Caravan Elgrand"
+    }
+  }, 
+  {
+    "object": {
+      "name": "日産自動車株式会社"
+    }, 
+    "property": {
+      "name": "wyprodukował"
+    }, 
+    "subject": {
+      "name": "Nissan Cedric"
+    }
+  }, 
+  {
+    "object": {
+      "name": "日産自動車株式会社"
+    }, 
+    "property": {
+      "name": "wyprodukował"
+    }, 
+    "subject": {
+      "name": "Nissan Cedric Y30 series"
+    }
+  }, 
+  {
+    "object": {
+      "name": "日産自動車株式会社"
+    }, 
+    "property": {
+      "name": "wyprodukował"
+    }, 
+    "subject": {
+      "name": "Nissan Cima"
+    }
+  }, 
+  {
+    "object": {
+      "name": "日産自動車株式会社"
+    }, 
+    "property": {
+      "name": "wyprodukował"
+    }, 
+    "subject": {
+      "name": "Nissan Elgrand"
+    }
+  }, 
+  {
+    "object": {
+      "name": "日産自動車株式会社"
+    }, 
+    "property": {
+      "name": "wyprodukował"
+    }, 
+    "subject": {
+      "name": "Nissan Gloria"
+    }
+  }, 
+  {
+    "object": {
+      "name": "日産自動車株式会社"
+    }, 
+    "property": {
+      "name": "zbudował"
+    }, 
+    "subject": {
+      "name": "Nissan Homy Elgrand"
+    }
+  }, 
+  {
+    "object": {
+      "name": "日産自動車株式会社"
+    }, 
+    "property": {
+      "name": "zbudował"
+    }, 
+    "subject": {
+      "name": "Nissan Laurel"
+    }
+  }, 
+  {
+    "object": {
+      "name": "日産自動車株式会社"
+    }, 
+    "property": {
+      "name": "wyprodukował"
+    }, 
+    "subject": {
+      "name": "Nissan President"
+    }
+  }, 
+  {
+    "object": {
+      "name": "日産自動車株式会社"
+    }, 
+    "property": {
+      "name": "sprzedał"
+    }, 
+    "subject": {
+      "name": "Nissan Prince Royal"
+    }
+  }, 
+  {
+    "object": {
+      "name": "日産自動車株式会社"
+    }, 
+    "property": {
+      "name": "sprzedał"
+    }, 
+    "subject": {
+      "name": "Nissan Skyline Crossover (Japan)"
+    }
+  }, 
+  {
+    "object": {
+      "name": "日産自動車株式会社"
+    }, 
+    "property": {
+      "name": "zaprojektował"
+    }, 
+    "subject": {
+      "name": "Prince Gloria"
+    }
+  }, 
+  {
+    "object": {
+      "name": "本田技研工業株式会社"
+    }, 
+    "property": {
+      "name": "zaprojektował"
+    }, 
+    "subject": {
+      "name": "Acura Legend (1985-1995)"
+    }
+  }, 
+  {
+    "object": {
+      "name": "本田技研工業株式会社"
+    }, 
+    "property": {
+      "name": "wyprodukował"
+    }, 
+    "subject": {
+      "name": "Acura RL (1996-present)"
+    }
+  }, 
+  {
+    "object": {
+      "name": "本田技研工業株式会社"
+    }, 
+    "property": {
+      "name": "wyprodukował"
+    }, 
+    "subject": {
+      "name": "Acura ZDX"
+    }
+  }, 
+  {
+    "object": {
+      "name": "本田技研工業株式会社"
+    }, 
+    "property": {
+      "name": "wyprodukował"
+    }, 
+    "subject": {
+      "name": "Daewoo Arcadia (1994-1999)"
+    }
+  }, 
+  {
+    "object": {
+      "name": "本田技研工業株式会社"
+    }, 
+    "property": {
+      "name": "wyprodukował"
+    }, 
+    "subject": {
+      "name": "Honda Elysion"
+    }
+  }, 
+  {
+    "object": {
+      "name": "本田技研工業株式会社"
+    }, 
+    "property": {
+      "name": "wycofał ze sprzedaży"
+    }, 
+    "subject": {
+      "name": "Honda Legend"
+    }
+  }, 
+  {
+    "object": {
+      "name": "関東自動車工業"
+    }, 
+    "property": {
+      "name": "wyprodukował"
+    }, 
+    "subject": {
+      "name": "First generation"
+    }
+  }, 
+  {
+    "object": {
+      "name": "関東自動車工業"
+    }, 
+    "property": {
+      "name": "wyprodukował"
+    }, 
+    "subject": {
+      "name": "Toyota Verossa"
+    }
+  }, 
+  {
+    "object": {
+      "name": "현대자동차 주식회사"
+    }, 
+    "property": {
+      "name": "sprzedał"
+    }, 
+    "subject": {
+      "name": "Hyundai Dynasty"
+    }
+  }, 
+  {
+    "object": {
+      "name": "현대자동차 주식회사"
+    }, 
+    "property": {
+      "name": "wyprodukował"
+    }, 
+    "subject": {
+      "name": "Hyundai Equus"
+    }
+  }, 
+  {
+    "object": {
+      "name": "현대자동차 주식회사"
+    }, 
+    "property": {
+      "name": "wytworzył"
+    }, 
+    "subject": {
+      "name": "Hyundai Genesis"
+    }
+  }, 
+  {
+    "object": {
+      "name": "현대자동차 주식회사"
+    }, 
+    "property": {
+      "name": "wytworzył"
+    }, 
+    "subject": {
+      "name": "Hyundai Grandeur"
+    }
+  }, 
+  {
+    "object": {
+      "name": "현대자동차 주식회사"
+    }, 
+    "property": {
+      "name": "wytworzył"
+    }, 
+    "subject": {
+      "name": "Hyundai Rohens (China)"
+    }
+  }
+]

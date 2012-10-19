@@ -1,0 +1,42 @@
+[
+  {
+    "object": {
+      "name": "Fort I", 
+      "type": {
+        "Name": "Budowla"
+      }
+    }, 
+    "property": {
+      "name": "stworzono", 
+      "type": {
+        "Name": "zostalZbudowany"
+      }
+    }, 
+    "subject": {
+      "name": "1922-1960", 
+      "type": {
+        "Name": "rok"
+      }
+    }
+  }, 
+  {
+    "object": {
+      "name": "Colloseum", 
+      "type": {
+        "Name": "Budowla"
+      }
+    }, 
+    "subject": {
+      "name": "200 p.n.e", 
+      "type": {
+        "Name": "rok"
+      }
+    }, 
+    "property": {
+      "name": "zostalZbudowany", 
+      "type": {
+        "Name": "zostalZbudowany"
+      }
+    }
+  }
+]

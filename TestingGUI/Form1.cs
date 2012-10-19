@@ -16,20 +16,21 @@ namespace TestingGUI {
     public partial class Form1 : Form {
         private IInput input = new Jsonify();
         private IOutput output = new Jsonify();
-        private List<Triple> triples;
-        private List<Triple> patternTriples;
-        private List<Triple> filteredTriples;
-        private List<LexCollection> lex;
+        private List<Triple> triples = new List<Triple>();
+        private List<Triple> patternTriples = new List<Triple>();
+        private List<Triple> filteredTriples = new List<Triple>();
+        private List<LexCollection> lex = new List<LexCollection>();
         private const String DIALOG_FILTER = "json files (*.json)|*.json|All files (*.*)|*.*";
 
         public Form1() {
             InitializeComponent();
+            openFileDialog.Filter = DIALOG_FILTER;
             openFileDialog.InitialDirectory = Application.StartupPath + @"..\..\";
-            saveFileDialog.InitialDirectory = Application.StartupPath;
+            saveFileDialog.InitialDirectory = Application.StartupPath + @"..\..\";
         }
 
         private void BtnLoadTriplesClick(object sender, EventArgs e) {
-            openFileDialog.Filter = DIALOG_FILTER;
+            openFileDialog.FileName = "[name]_triples.json";
 
             if (openFileDialog.ShowDialog() == DialogResult.OK) {
                 triples = input.readTriples(openFileDialog.FileName);
@@ -41,7 +42,7 @@ namespace TestingGUI {
         }
 
         private void BtnLoadPatternTriplesClick(object sender, EventArgs e) {
-            openFileDialog.Filter = DIALOG_FILTER;
+            openFileDialog.FileName = "[name]_pattern_triples.json";
 
             if (openFileDialog.ShowDialog() == DialogResult.OK) {
                 patternTriples = input.readPatternTriples(openFileDialog.FileName);
@@ -53,20 +54,28 @@ namespace TestingGUI {
         }
 
         private void BtnLoadLexClick(object sender, EventArgs e) {
-            openFileDialog.Filter = DIALOG_FILTER;
+            openFileDialog.FileName = "[name]_lex.json";
+
             if (openFileDialog.ShowDialog() == DialogResult.OK) {
                 lex = input.readLexicalizations(openFileDialog.FileName);
+                listBoxLex.Items.Clear();
+                foreach (LexCollection l in lex) {
+                    listBoxLex.Items.Add(l.ToString());
+                }
             }
         }
 
         private void btnFilter_Click(object sender, EventArgs e) {
             filteredTriples = FilteringMachine.filter(triples, patternTriples, lex);
+            listBoxFiltered.Items.Clear();
             foreach (Triple t in filteredTriples) {
                 listBoxFiltered.Items.Add(t.ToString());
             }
         }
 
         private void btnSave_Click(object sender, EventArgs e) {
+            saveFileDialog.FileName = "[name]_filtered_triples.json";
+
             if (saveFileDialog.ShowDialog() == System.Windows.Forms.DialogResult.OK) {
                 output.save(FilteringMachine.LastResult, saveFileDialog.FileName);
             }
