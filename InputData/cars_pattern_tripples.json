@@ -2,51 +2,51 @@
     {
         "object": {
             "type": {
-                "Name": "producent"
+                "name": "producent"
             }
         }, 
         "property": {
             "type": {
-                "Name": "relacjaWytworzył"
+                "name": "relacjaWytworzył"
             }
         }, 
         "subject": {
             "type": {
-                "Name": "model auta"
+                "name": "model auta"
             }
         }
     }, 
     {
         "object": {
             "type": {
-                "Name": "producent"
+                "name": "producent"
             }
         }, 
         "property": {
             "type": {
-                "Name": "relacjaSprzedał"
+                "name": "relacjaSprzedał"
             }
         }, 
         "subject": {
             "type": {
-                "Name": "model auta"
+                "name": "model auta"
             }
         }
     }, 
     {
         "object": {
             "type": {
-                "Name": "producent"
+                "name": "producent"
             }
         }, 
         "property": {
             "type": {
-                "Name": "relacjaWytworzył"
+                "name": "relacjaWytworzył"
             }
         }, 
         "subject": {
             "type": {
-                "Name": "drzwi"
+                "name": "drzwi"
             }
         }
     }

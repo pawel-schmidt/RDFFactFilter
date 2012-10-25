@@ -3,19 +3,22 @@
     "object": {
       "name": "AMO ZiL (Avtomobilnoe Moskovskoe Obshchestvo - Zavod Imeni Likhachova)",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "ZIL-114",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "wyprodukował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -23,19 +26,22 @@
     "object": {
       "name": "AMO ZiL (Avtomobilnoe Moskovskoe Obshchestvo - Zavod Imeni Likhachova)",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "ZIL-41041",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "zaprojektował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -43,19 +49,22 @@
     "object": {
       "name": "AMO ZiL (Avtomobilnoe Moskovskoe Obshchestvo - Zavod Imeni Likhachova)",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "ZIL-41047",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "wyprodukował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -63,19 +72,22 @@
     "object": {
       "name": "AMO ZiL (Avtomobilnoe Moskovskoe Obshchestvo - Zavod Imeni Likhachova)",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "ZiL-111",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "wyprodukował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -83,19 +95,22 @@
     "object": {
       "name": "Audi",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Audi V8",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "wyprodukował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -103,19 +118,22 @@
     "object": {
       "name": "Automobiles CITROËN",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Citroën C6",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "stworzył",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -123,19 +141,22 @@
     "object": {
       "name": "Automobiles CITROËN",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Citroën SM",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "wyprodukował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -143,19 +164,22 @@
     "object": {
       "name": "Bayerische Motoren Werke AG",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "BMW 7-Series (E23)",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "wyprodukował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -163,19 +187,22 @@
     "object": {
       "name": "Bayerische Motoren Werke AG",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "BMW 7-Series (E32)",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "wyprodukował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -183,19 +210,22 @@
     "object": {
       "name": "Blue Bird Corporation",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Blue Bird Wanderlodge",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "wyprodukował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -203,19 +233,22 @@
     "object": {
       "name": "Bugatti",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Bugatti Royale",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "wyprodukował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -223,19 +256,22 @@
     "object": {
       "name": "Bugatti",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Bugatti Type 41",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "zbudował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -243,19 +279,22 @@
     "object": {
       "name": "Chrysler Group LLC",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Chrysler 300",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "zbudował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -263,19 +302,22 @@
     "object": {
       "name": "Chrysler Group LLC",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Chrysler Cordoba",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "zbudował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -283,19 +325,22 @@
     "object": {
       "name": "Chrysler Group LLC",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Chrysler Executive",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "zbudował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -303,19 +348,22 @@
     "object": {
       "name": "Chrysler Group LLC",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Chrysler TC by Maserati",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "zbudował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -323,19 +371,22 @@
     "object": {
       "name": "Chrysler Group LLC",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Imperial",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "zbudował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -343,19 +394,22 @@
     "object": {
       "name": "Facel SA",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Facel-Vega Excellence",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "zbudował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -363,19 +417,22 @@
     "object": {
       "name": "Fiat S.p.A.",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Fiat 24-32 HP",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "zbudował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -383,19 +440,22 @@
     "object": {
       "name": "Fiat S.p.A.",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Fiat 520",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "wytworzył",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -403,19 +463,22 @@
     "object": {
       "name": "Fiat S.p.A.",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Fiat 60 HP",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "zaprojektował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -423,19 +486,22 @@
     "object": {
       "name": "Ford Lincoln",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Lincoln Versailles",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "zbudował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -443,19 +509,22 @@
     "object": {
       "name": "Ford Motor Company",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Lincoln Continental Mark VI",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "zbudował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -463,19 +532,22 @@
     "object": {
       "name": "Ford Motor Company",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Lincoln Mark VIII",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "zbudował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -483,19 +555,22 @@
     "object": {
       "name": "Ford Motor Company of Australia",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Ford Fairlane",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "zbudował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -503,19 +578,22 @@
     "object": {
       "name": "Ford Motor Company of Australia",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Ford LTD",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "wyprodukował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -523,19 +601,22 @@
     "object": {
       "name": "GM Holden Ltd",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Buick Park Avenue",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "zbudował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -543,19 +624,22 @@
     "object": {
       "name": "GM Holden Ltd",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Buick Royaum",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "stworzył",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -563,19 +647,22 @@
     "object": {
       "name": "GM Holden Ltd",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Chevrolet Caprice",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "zbudował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -583,19 +670,22 @@
     "object": {
       "name": "GM Holden Ltd",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Daewoo Veritas",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "zaprojektował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -603,19 +693,22 @@
     "object": {
       "name": "GM Holden Ltd",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Holden Caprice",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "zaprojektował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -623,19 +716,22 @@
     "object": {
       "name": "GM Holden Ltd",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Holden Statesman",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "zaprojektował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -643,19 +739,22 @@
     "object": {
       "name": "Honda Giken Kogyo Kabushiki-gaisha",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Daewoo Arcadia (1994-1999)",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "stworzył",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -663,19 +762,22 @@
     "object": {
       "name": "Honda Giken Kogyo Kabushiki-gaisha",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Honda Legend",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "wytworzył",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -683,19 +785,22 @@
     "object": {
       "name": "Honda Motor Company, Ltd.",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Acura ZDX",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "wyprodukował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -703,19 +808,22 @@
     "object": {
       "name": "Honda Motor Company, Ltd.",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Daewoo Arcadia (1994-1999)",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "wyprodukował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -723,19 +831,22 @@
     "object": {
       "name": "Honda Motor Company, Ltd.",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Honda Legend",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "wyprodukował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -743,19 +854,22 @@
     "object": {
       "name": "Hyundai Motor Company",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Hyundai Dynasty",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "zbudował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -763,19 +877,22 @@
     "object": {
       "name": "Hyundai Motor Company",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Hyundai Equus",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "wyprodukował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -783,19 +900,22 @@
     "object": {
       "name": "Hyundai Motor Company",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Hyundai Genesis",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "wytworzył",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -803,19 +923,22 @@
     "object": {
       "name": "Hyundai Motor Company",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Hyundai Grandeur",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "zbudował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -823,19 +946,22 @@
     "object": {
       "name": "Hyundai Motor Company",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Hyundai Rohens (China)",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "zaprojektował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -843,19 +969,22 @@
     "object": {
       "name": "Jensen Motors, Ltd",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Jensen 541 S",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "zaprojektował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -863,19 +992,22 @@
     "object": {
       "name": "Jensen Motors, Ltd",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Jensen Interceptor",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "zaprojektował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -883,19 +1015,22 @@
     "object": {
       "name": "Kanto Auto Works",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "First generation",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "zaprojektował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -903,19 +1038,22 @@
     "object": {
       "name": "Kanto Auto Works",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Toyota Verossa",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "zaprojektował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -923,19 +1061,22 @@
     "object": {
       "name": "Land Rover",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Range Rover",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "zaprojektował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -943,19 +1084,22 @@
     "object": {
       "name": "Land Rover",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Range Rover \"Classic\"",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "zaprojektował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -963,19 +1107,22 @@
     "object": {
       "name": "Land Rover",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Range Rover (L322)",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "zbudował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -983,19 +1130,22 @@
     "object": {
       "name": "Land Rover",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Range Rover (P38A)",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "zbudował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -1003,19 +1153,22 @@
     "object": {
       "name": "Maserati S.p.A.",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Chrysler TC by Maserati",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "zbudował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -1023,19 +1176,22 @@
     "object": {
       "name": "Matsuda Kabushiki-gaisha",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Amati 1000",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "zbudował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -1043,19 +1199,22 @@
     "object": {
       "name": "Matsuda Kabushiki-gaisha",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Amati 1200",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "zbudował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -1063,19 +1222,22 @@
     "object": {
       "name": "Matsuda Kabushiki-gaisha",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Eunos 300",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "zbudował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -1083,19 +1245,22 @@
     "object": {
       "name": "Matsuda Kabushiki-gaisha",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Eunos 500",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "zbudował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -1103,19 +1268,22 @@
     "object": {
       "name": "Matsuda Kabushiki-gaisha",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Eunos 800",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "zbudował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -1123,19 +1291,22 @@
     "object": {
       "name": "Matsuda Kabushiki-gaisha",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Kia Enterprise",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "zbudował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -1143,19 +1314,22 @@
     "object": {
       "name": "Matsuda Kabushiki-gaisha",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Mazda 929",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "zbudował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -1163,19 +1337,22 @@
     "object": {
       "name": "Matsuda Kabushiki-gaisha",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Mazda Luce",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "wyprodukował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -1183,19 +1360,22 @@
     "object": {
       "name": "Matsuda Kabushiki-gaisha",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Mazda Luce",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "wyprodukował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -1203,19 +1383,22 @@
     "object": {
       "name": "Matsuda Kabushiki-gaisha",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Mazda Millenia",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "zbudował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -1223,19 +1406,22 @@
     "object": {
       "name": "Matsuda Kabushiki-gaisha",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Mazda Persona",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "zbudował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -1243,19 +1429,22 @@
     "object": {
       "name": "Matsuda Kabushiki-gaisha",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Mazda Sentia",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "zbudował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -1263,19 +1452,22 @@
     "object": {
       "name": "Matsuda Kabushiki-gaisha",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Mazda Xedos 6",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "zbudował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -1283,19 +1475,22 @@
     "object": {
       "name": "Matsuda Kabushiki-gaisha",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Mazda Xedos 9",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "zbudował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -1303,19 +1498,22 @@
     "object": {
       "name": "Matsuda Kabushiki-gaisha",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Ẽfini MS-9",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "zbudował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -1323,19 +1521,22 @@
     "object": {
       "name": "Mazda Motor Corporation",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Amati 1000",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "wyprodukował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -1343,19 +1544,22 @@
     "object": {
       "name": "Mazda Motor Corporation",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Efini MS-8",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "wyprodukował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -1363,19 +1567,22 @@
     "object": {
       "name": "Mazda Motor Corporation",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Eunos 300",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "wyprodukował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -1383,19 +1590,22 @@
     "object": {
       "name": "Mazda Motor Corporation",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Eunos 500",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "wyprodukował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -1403,19 +1613,22 @@
     "object": {
       "name": "Mazda Motor Corporation",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Eunos 800",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "wyprodukował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -1423,19 +1636,22 @@
     "object": {
       "name": "Mazda Motor Corporation",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Kia Enterprise",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "stworzył",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -1443,19 +1659,22 @@
     "object": {
       "name": "Mazda Motor Corporation",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Mazda 929",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "stworzył",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -1463,19 +1682,22 @@
     "object": {
       "name": "Mazda Motor Corporation",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Mazda 929",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "stworzył",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -1483,19 +1705,22 @@
     "object": {
       "name": "Mazda Motor Corporation",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Mazda 929 Serenia",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "wyprodukował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -1503,19 +1728,22 @@
     "object": {
       "name": "Mazda Motor Corporation",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Mazda Luce",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "wyprodukował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -1523,19 +1751,22 @@
     "object": {
       "name": "Mazda Motor Corporation",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Mazda Luce",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "wyprodukował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -1543,19 +1774,22 @@
     "object": {
       "name": "Mazda Motor Corporation",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Mazda Millenia",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "wyprodukował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -1563,19 +1797,22 @@
     "object": {
       "name": "Mazda Motor Corporation",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Mazda Persona",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "wyprodukował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -1583,19 +1820,22 @@
     "object": {
       "name": "Mazda Motor Corporation",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Mazda Sentia",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "wyprodukował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -1603,19 +1843,22 @@
     "object": {
       "name": "Mazda Motor Corporation",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Mazda Xedos 9",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "wyprodukował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -1623,19 +1866,22 @@
     "object": {
       "name": "Mazda Motor Corporation",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Ẽfini MS-9",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "wyprodukował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -1643,19 +1889,22 @@
     "object": {
       "name": "Mercedes-Benz",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Mercedes-Benz W126",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "wyprodukował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -1663,19 +1912,22 @@
     "object": {
       "name": "Mercedes-Benz",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Mercedes-Benz W140",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "zaprojektował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -1683,19 +1935,22 @@
     "object": {
       "name": "Mercedes-Benz",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Mercedes-Benz W221",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "wyprodukował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -1703,19 +1958,22 @@
     "object": {
       "name": "Mitsubishi Motors Corporation",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Mitsubishi Debonair",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "wytworzył",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -1723,19 +1981,22 @@
     "object": {
       "name": "Mitsubishi Motors Corporation",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Mitsubishi Dignity",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "wyprodukował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -1743,19 +2004,22 @@
     "object": {
       "name": "Mitsubishi Motors Corporation",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Mitsubishi Proudia",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "wyprodukował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -1763,19 +2027,22 @@
     "object": {
       "name": "Nissan Jidosha Kabushiki-gaisha",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Datsun Laurel (Europe)",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "wyprodukował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -1783,19 +2050,22 @@
     "object": {
       "name": "Nissan Jidosha Kabushiki-gaisha",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Infiniti EX (J50)",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "wyprodukował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -1803,19 +2073,22 @@
     "object": {
       "name": "Nissan Jidosha Kabushiki-gaisha",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Infiniti M (model years 2006-present)",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "wytworzył",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -1823,19 +2096,22 @@
     "object": {
       "name": "Nissan Jidosha Kabushiki-gaisha",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Infiniti M45",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "wyprodukował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -1843,19 +2119,22 @@
     "object": {
       "name": "Nissan Jidosha Kabushiki-gaisha",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Infiniti Q45",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "zbudował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -1863,19 +2142,22 @@
     "object": {
       "name": "Nissan Jidosha Kabushiki-gaisha",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Isuzu Filly",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "wytworzył",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -1883,19 +2165,22 @@
     "object": {
       "name": "Nissan Jidosha Kabushiki-gaisha",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Nissan 300C",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "wytworzył",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -1903,19 +2188,22 @@
     "object": {
       "name": "Nissan Jidosha Kabushiki-gaisha",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Nissan Caravan Elgrand",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "zaprojektował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -1923,19 +2211,22 @@
     "object": {
       "name": "Nissan Jidosha Kabushiki-gaisha",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Nissan Cedric",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "wyprodukował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -1943,19 +2234,22 @@
     "object": {
       "name": "Nissan Jidosha Kabushiki-gaisha",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Nissan Cedric Y30 series",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "wyprodukował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -1963,19 +2257,22 @@
     "object": {
       "name": "Nissan Jidosha Kabushiki-gaisha",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Nissan Cima",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "wyprodukował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -1983,19 +2280,22 @@
     "object": {
       "name": "Nissan Jidosha Kabushiki-gaisha",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Nissan Elgrand",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "wyprodukował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -2003,19 +2303,22 @@
     "object": {
       "name": "Nissan Jidosha Kabushiki-gaisha",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Nissan Gloria",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "wyprodukował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -2023,19 +2326,22 @@
     "object": {
       "name": "Nissan Jidosha Kabushiki-gaisha",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Nissan Laurel",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "wyprodukował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -2043,19 +2349,22 @@
     "object": {
       "name": "Nissan Jidosha Kabushiki-gaisha",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Nissan President",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "wyprodukował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -2063,19 +2372,22 @@
     "object": {
       "name": "Nissan Jidosha Kabushiki-gaisha",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Nissan Prince Royal",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "wyprodukował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -2083,19 +2395,22 @@
     "object": {
       "name": "Nissan Jidosha Kabushiki-gaisha",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Prince Gloria",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "wyprodukował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -2103,19 +2418,22 @@
     "object": {
       "name": "Nissan Motor Company Ltd",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Infiniti EX (J50)",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "zbudował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -2123,19 +2441,22 @@
     "object": {
       "name": "Nissan Motor Company Ltd",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Infiniti M45",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "wyprodukował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -2143,19 +2464,22 @@
     "object": {
       "name": "Nissan Motor Company Ltd",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Infiniti Q45",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "wyprodukował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -2163,19 +2487,22 @@
     "object": {
       "name": "Nissan Motor Company Ltd",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Isuzu Fargo Filly",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "wyprodukował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -2183,19 +2510,22 @@
     "object": {
       "name": "Nissan Motor Company Ltd",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Isuzu Filly",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "wyprodukował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -2203,19 +2533,22 @@
     "object": {
       "name": "Nissan Motor Company Ltd",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Nissan 300C",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "wyprodukował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -2223,19 +2556,22 @@
     "object": {
       "name": "Nissan Motor Company Ltd",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Nissan Caravan Elgrand",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "zaprojektował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -2243,19 +2579,22 @@
     "object": {
       "name": "Nissan Motor Company Ltd",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Nissan Cedric",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "wyprodukował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -2263,19 +2602,22 @@
     "object": {
       "name": "Nissan Motor Company Ltd",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Nissan Cedric Y30 series",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "wyprodukował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -2283,19 +2625,22 @@
     "object": {
       "name": "Nissan Motor Company Ltd",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Nissan Elgrand",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "wyprodukował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -2303,19 +2648,22 @@
     "object": {
       "name": "Nissan Motor Company Ltd",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Nissan Gloria",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "stworzył",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -2323,19 +2671,22 @@
     "object": {
       "name": "Nissan Motor Company Ltd",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Nissan Homy Elgrand",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "wyprodukował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -2343,19 +2694,22 @@
     "object": {
       "name": "Nissan Motor Company Ltd",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Nissan Laurel",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "wyprodukował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -2363,19 +2717,22 @@
     "object": {
       "name": "Nissan Motor Company Ltd",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Nissan Skyline Crossover (Japan)",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "wyprodukował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -2383,19 +2740,22 @@
     "object": {
       "name": "Nissan Motor Company Ltd",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Prince Gloria",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "wyprodukował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -2403,19 +2763,22 @@
     "object": {
       "name": "Porsche Automobile Holding",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Porsche Panamera (970)",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "zaprojektował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -2423,19 +2786,22 @@
     "object": {
       "name": "SsangYong Motor Company",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "SsangYong Chairman",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "wyprodukował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -2443,19 +2809,22 @@
     "object": {
       "name": "Toyota Jidosha Kabushiki-gaisha",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Reiz",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "wyprodukował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -2463,19 +2832,22 @@
     "object": {
       "name": "Toyota Jidosha Kabushiki-gaisha",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Toyota Alphard",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "wyprodukował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -2483,19 +2855,22 @@
     "object": {
       "name": "Toyota Jidosha Kabushiki-gaisha",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Toyota Century",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "wyprodukował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -2503,19 +2878,22 @@
     "object": {
       "name": "Toyota Jidosha Kabushiki-gaisha",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Toyota Crown",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "wyprodukował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -2523,19 +2901,22 @@
     "object": {
       "name": "Toyota Jidosha Kabushiki-gaisha",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Toyota Granvia",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "wytworzył",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -2543,19 +2924,22 @@
     "object": {
       "name": "Toyota Jidosha Kabushiki-gaisha",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Toyota Hiace",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "wytworzył",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -2563,19 +2947,22 @@
     "object": {
       "name": "Toyota Jidosha Kabushiki-gaisha",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Toyota Hiace Solemio",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "wyprodukował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -2583,19 +2970,22 @@
     "object": {
       "name": "Toyota Jidosha Kabushiki-gaisha",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Toyota Mark X (X120)",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "zbudował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -2603,19 +2993,22 @@
     "object": {
       "name": "Toyota Jidosha Kabushiki-gaisha",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Toyota Progrès",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "zbudował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -2623,19 +3016,22 @@
     "object": {
       "name": "Toyota Jidosha Kabushiki-gaisha",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Toyota Sembion (commercial van)",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "wyprodukował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -2643,19 +3039,22 @@
     "object": {
       "name": "Toyota Jidosha Kabushiki-gaisha",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Toyota Vellfire",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "wyprodukował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -2663,19 +3062,22 @@
     "object": {
       "name": "Toyota Motor Corporation",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Reiz",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "wyprodukował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -2683,19 +3085,22 @@
     "object": {
       "name": "Toyota Motor Corporation",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Toyota Alphard",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "wyprodukował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -2703,19 +3108,22 @@
     "object": {
       "name": "Toyota Motor Corporation",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Toyota Century",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "wyprodukował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -2723,19 +3131,22 @@
     "object": {
       "name": "Toyota Motor Corporation",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Toyota Crown",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "wyprodukował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -2743,19 +3154,22 @@
     "object": {
       "name": "Toyota Motor Corporation",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Toyota Hiace",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "wyprodukował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -2763,19 +3177,22 @@
     "object": {
       "name": "Toyota Motor Corporation",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Toyota Hiace Solemio",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "wytworzył",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -2783,19 +3200,22 @@
     "object": {
       "name": "Toyota Motor Corporation",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Toyota Mark X (X120)",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "wyprodukował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -2803,19 +3223,22 @@
     "object": {
       "name": "Toyota Motor Corporation",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Toyota Progrès",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "wyprodukował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -2823,19 +3246,22 @@
     "object": {
       "name": "Toyota Motor Corporation",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Toyota Sembion (commercial van)",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "wyprodukował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -2843,19 +3269,22 @@
     "object": {
       "name": "Toyota Motor Corporation",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Toyota Vellfire",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "wyprodukował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -2863,19 +3292,22 @@
     "object": {
       "name": "Volkswagen",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Volkswagen Phaeton",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "wyprodukował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -2883,19 +3315,22 @@
     "object": {
       "name": "トヨタ自動車株式会社",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Reiz",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "stworzył",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -2903,19 +3338,22 @@
     "object": {
       "name": "トヨタ自動車株式会社",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Toyota Alphard",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "wyprodukował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -2923,19 +3361,22 @@
     "object": {
       "name": "トヨタ自動車株式会社",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Toyota Century",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "wyprodukował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -2943,19 +3384,22 @@
     "object": {
       "name": "トヨタ自動車株式会社",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Toyota Crown",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "wyprodukował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -2963,19 +3407,22 @@
     "object": {
       "name": "トヨタ自動車株式会社",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Toyota Granvia",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "wyprodukował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -2983,19 +3430,22 @@
     "object": {
       "name": "トヨタ自動車株式会社",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Toyota Vellfire",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "wytworzył",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -3003,19 +3453,22 @@
     "object": {
       "name": "日産自動車株式会社",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Infiniti EX (J50)",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "wyprodukował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -3023,19 +3476,22 @@
     "object": {
       "name": "日産自動車株式会社",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Infiniti M (model years 2006-present)",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "stworzył",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -3043,19 +3499,22 @@
     "object": {
       "name": "日産自動車株式会社",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Infiniti M45",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "wyprodukował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -3063,19 +3522,22 @@
     "object": {
       "name": "日産自動車株式会社",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Isuzu Fargo Filly",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "wyprodukował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -3083,19 +3545,22 @@
     "object": {
       "name": "日産自動車株式会社",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Isuzu Filly",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "wyprodukował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -3103,19 +3568,22 @@
     "object": {
       "name": "日産自動車株式会社",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Nissan 300C",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "wyprodukował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -3123,19 +3591,22 @@
     "object": {
       "name": "日産自動車株式会社",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Nissan Caravan Elgrand",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "wyprodukował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -3143,19 +3614,22 @@
     "object": {
       "name": "日産自動車株式会社",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Nissan Cedric",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "wyprodukował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -3163,19 +3637,22 @@
     "object": {
       "name": "日産自動車株式会社",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Nissan Cedric Y30 series",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "wyprodukował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -3183,19 +3660,22 @@
     "object": {
       "name": "日産自動車株式会社",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Nissan Cima",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "wyprodukował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -3203,19 +3683,22 @@
     "object": {
       "name": "日産自動車株式会社",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Nissan Elgrand",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "wyprodukował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -3223,19 +3706,22 @@
     "object": {
       "name": "日産自動車株式会社",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Nissan Gloria",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "wyprodukował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -3243,19 +3729,22 @@
     "object": {
       "name": "日産自動車株式会社",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Nissan Homy Elgrand",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "zbudował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -3263,19 +3752,22 @@
     "object": {
       "name": "日産自動車株式会社",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Nissan Laurel",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "zbudował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -3283,19 +3775,22 @@
     "object": {
       "name": "日産自動車株式会社",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Nissan President",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "wyprodukował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -3303,19 +3798,22 @@
     "object": {
       "name": "日産自動車株式会社",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Prince Gloria",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "zaprojektował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -3323,19 +3821,22 @@
     "object": {
       "name": "本田技研工業株式会社",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Acura Legend (1985-1995)",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "zaprojektował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -3343,19 +3844,22 @@
     "object": {
       "name": "本田技研工業株式会社",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Acura RL (1996-present)",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "wyprodukował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -3363,19 +3867,22 @@
     "object": {
       "name": "本田技研工業株式会社",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Acura ZDX",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "wyprodukował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -3383,19 +3890,22 @@
     "object": {
       "name": "本田技研工業株式会社",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Daewoo Arcadia (1994-1999)",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "wyprodukował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -3403,19 +3913,22 @@
     "object": {
       "name": "本田技研工業株式会社",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Honda Elysion",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "wyprodukował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -3423,19 +3936,22 @@
     "object": {
       "name": "関東自動車工業",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "First generation",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "wyprodukował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -3443,19 +3959,22 @@
     "object": {
       "name": "関東自動車工業",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Toyota Verossa",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "wyprodukował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -3463,19 +3982,22 @@
     "object": {
       "name": "현대자동차 주식회사",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Hyundai Equus",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "wyprodukował",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -3483,19 +4005,22 @@
     "object": {
       "name": "현대자동차 주식회사",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Hyundai Genesis",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "wytworzył",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -3503,19 +4028,22 @@
     "object": {
       "name": "현대자동차 주식회사",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Hyundai Grandeur",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "wytworzył",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   },
@@ -3523,19 +4051,22 @@
     "object": {
       "name": "현대자동차 주식회사",
       "type": {
-        "Name": "producent"
+        "name": "producent",
+        "subtypes": []
       }
     },
     "subject": {
       "name": "Hyundai Rohens (China)",
       "type": {
-        "Name": "model auta"
+        "name": "model auta",
+        "subtypes": []
       }
     },
     "property": {
       "name": "wytworzył",
       "type": {
-        "Name": "relacjaWytworzył"
+        "name": "relacjaWytworzył",
+        "subtypes": []
       }
     }
   }

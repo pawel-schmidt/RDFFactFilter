@@ -1,41 +1,41 @@
 [
   {
     "object": {
-      "name": "Fort I", 
+      "value": "Fort I", 
       "type": {
-        "Name": "Budowla"
+        "name": "Budowla"
       }
     }, 
     "property": {
-      "name": "stworzono", 
+      "value": "stworzono", 
       "type": {
-        "Name": "zostalZbudowany"
+        "name": "zostalZbudowany"
       }
     }, 
     "subject": {
-      "name": "1922-1960", 
+      "value": "1922-1960", 
       "type": {
-        "Name": "rok"
+        "name": "rok"
       }
     }
   }, 
   {
     "object": {
-      "name": "Colloseum", 
+      "value": "Colloseum", 
       "type": {
-        "Name": "Budowla"
+        "name": "Budowla"
       }
     }, 
     "subject": {
-      "name": "200 p.n.e", 
+      "value": "200 p.n.e", 
       "type": {
-        "Name": "rok"
+        "name": "rok"
       }
     }, 
     "property": {
-      "name": "zostalZbudowany", 
+      "value": "zostalZbudowany", 
       "type": {
-        "Name": "zostalZbudowany"
+        "name": "zostalZbudowany"
       }
     }
   }

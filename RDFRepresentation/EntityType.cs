@@ -9,7 +9,8 @@ using System.Text;
  */
 namespace RDFRepresentation {
     public class EntityType {
-        private String name;
+        public String name;
+        public List<EntityType> subtypes = new List<EntityType>();
 
         /// <summary>
         /// 
@@ -17,10 +18,6 @@ namespace RDFRepresentation {
         /// <param name="name">Name of entity type, i. e. "Obiekt budowlany"</param>
         public EntityType(String name) {
             this.name = name;
-        }
-
-        public String Name {
-            get { return name; }
         }
         
         override public String ToString() {

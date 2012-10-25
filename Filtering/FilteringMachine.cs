@@ -25,16 +25,16 @@ namespace Filtering {
                     foreach (LexCollection l in lexicalizations) {
 
                         // if property name of pattern triple and lexicalizations collection name are the same
-                        if (pt.property.type.Name.Equals(l.name, StringComparison.OrdinalIgnoreCase)) {
+                        if (pt.property.type.name.Equals(l.name, StringComparison.OrdinalIgnoreCase)) {
                             
                             foreach (String lex in l.items) {
                                 // if lexicalization is equal to triple property
-                                if (lex.Equals(t.property.name, StringComparison.OrdinalIgnoreCase)) {
+                                if (lex.Equals(t.property.value, StringComparison.OrdinalIgnoreCase)) {
                                     // create new triple - combination of (phrase) triple (names) and pattern triple (types)
                                     Triple toAdd = new Triple();
-                                    toAdd.@object = new Entity(t.@object.name, pt.@object.type);
-                                    toAdd.property = new Entity(t.property.name, pt.property.type);
-                                    toAdd.subject = new Entity(t.subject.name, pt.subject.type);
+                                    toAdd.@object = new Entity(t.@object.value, pt.@object.type);
+                                    toAdd.property = new Entity(t.property.value, pt.property.type);
+                                    toAdd.subject = new Entity(t.subject.value, pt.subject.type);
 
                                     // add to result list and jump out from loop
                                     result.Add(toAdd);

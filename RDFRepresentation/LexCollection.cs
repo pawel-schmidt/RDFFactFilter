@@ -41,7 +41,7 @@ namespace RDFRepresentation {
          * Just a gateway to HashSet.Contains
          */ 
         public Boolean Contains(Entity e) {
-            return this.items.Contains(e.name);
+            return this.items.Contains(e.value);
         }
 
         public override string ToString() {
