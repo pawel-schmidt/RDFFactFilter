@@ -1,0 +1,27 @@
+{
+  "name": "Obiekt",
+  "subtypes": [
+    {
+      "name": "Samochod",
+      "subtypes": [
+        {
+          "name": "Opel",
+          "subtypes": []
+        },
+        {
+          "name": "Daewoo",
+          "subtypes": []
+        }
+      ]
+    },
+    {
+      "name": "Pralka",
+      "subtypes": [
+        {
+          "name": "Daewoo",
+          "subtypes": []
+        }
+      ]
+    }
+  ]
+}

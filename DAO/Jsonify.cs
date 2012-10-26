@@ -20,6 +20,19 @@ namespace DAO {
      */
     public class Jsonify : IInput, IOutput {
 
+    	public EntityType readTypeHierarchy(string filePath) {
+    	
+			String data = File.ReadAllText(filePath);
+            EntityType et;
+
+            try {
+                et = JsonConvert.DeserializeObject<EntityType>(data);
+            }
+            catch (JsonReaderException) {
+            	throw new FileLoadException("Cannot deserialize EntityType");
+            }    
+			return et;            
+    	}
         /**
          * This method loads and deserializes triples from file
          * 
@@ -131,9 +144,50 @@ namespace DAO {
         /**
          * Junkyard
          */
-        public static void Main() {
+        //public static void Main() {
+        	
+        	//List<EntityType> subtypes = new List<EntityType>();
+        	
+//			EntityType etr1 = new EntityType("Daewoo");        		
+//        	
+//        	EntityType et1 = new EntityType("Opel");
+//        		List<EntityType> st1 =  new List<EntityType>();st1.Add(et1);st1.Add(etr1);
+//        	//EntityType et2 = new EntityType("Samochod",st1);
+//        		//List<EntityType> st2 =  new List<EntityType>();st2.Add(et2);
+//        	List<EntityType> str1 =  new List<EntityType>();str1.Add(etr1);
+//        		EntityType etr3 = new EntityType("Pralka", str1);
+//        		
+//        	EntityType et3 = new EntityType("Samochod", st1);
+//        		List<EntityType> st3 =  new List<EntityType>();st3.Add(et3);st3.Add(etr3);
+//        	
+//        	EntityType et4 = new EntityType("Obiekt", st3);
+        	
+        	//String data = File.ReadAllText("../../../types.json");
+            //JavaScriptSerializer jss = new JavaScriptSerializer();
+            //dynamic dict = jss.Deserialize<dynamic>(data);
+            
+//
+//            try {
+//                list = JsonConvert.DeserializeObject<EntityType>(data);
+//            }
+//            catch (JsonReaderException) {
+//                list = new EntityType("dupa");
+//            }
+            
+            
+        	//File.WriteAllText("../../../types.json", JsonConvert.SerializeObject(et4, Formatting.Indented));
+        	
+        	
+        	
+        	
+        	
+        	
+        	
+        	//subtpyes.Add("
+        	//EntityType et = new EntityType("Pojazd", subtypes);
+        	//Entity e = new Entity("Astra", et);
 
-            //DO NOT EVEN LOOK AT THIS MESS BELOW
+
 
             //    		String content = fromFile("../../../data.json");
             //    		
@@ -196,30 +250,30 @@ namespace DAO {
             //Console.WriteLine(dicto.ToString());
 
 
-            List<Triple> list = new List<Triple>();
-
-            Entity obj = new Entity("Fort I", new EntityType("Budowla"));
-            Entity property = new Entity("zostalZbudowany", new EntityType("zostalZbudowany"));
-            Entity subject = new Entity("1922-1960", new EntityType("rok"));
-
-
-            Entity obj2 = new Entity("Colloseum", new EntityType("Budowla"));
-            Entity property2 = new Entity("zostalZbudowany", new EntityType("zostalZbudowany"));
-            Entity subject2 = new Entity("200 p.n.e", new EntityType("rok"));
-
-            Triple t = new Triple(obj, property, subject);
-            Triple t2 = new Triple(obj2, property2, subject2);
-            list.Add(t);
-            list.Add(t2);
-
-            File.WriteAllText("../../../triples.json",
-                              JsonConvert.SerializeObject(list, Formatting.Indented)
+//            List<Triple> list = new List<Triple>();
+//
+//            Entity obj = new Entity("Fort I", new EntityType("Budowla"));
+//            Entity property = new Entity("zostalZbudowany", new EntityType("zostalZbudowany"));
+//            Entity subject = new Entity("1922-1960", new EntityType("rok"));
+//
+//
+//            Entity obj2 = new Entity("Colloseum", new EntityType("Budowla"));
+//            Entity property2 = new Entity("zostalZbudowany", new EntityType("zostalZbudowany"));
+//            Entity subject2 = new Entity("200 p.n.e", new EntityType("rok"));
+//
+//            Triple t = new Triple(obj, property, subject);
+//            Triple t2 = new Triple(obj2, property2, subject2);
+//            list.Add(t);
+//            list.Add(t2);
+//
+//            File.WriteAllText("../../../triples.json",
+//                              JsonConvert.SerializeObject(list, Formatting.Indented)
                 // JsonSerializer.SerializeToString(list)
-                             );
+                           //  );
             //Console.WriteLine(JsonSerializer.SerializeToString(list));
 
 
-            //Console.ReadKey();
-        }
+           // Console.ReadKey();
+       // }
     }
 }
