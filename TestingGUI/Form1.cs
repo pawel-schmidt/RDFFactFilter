@@ -20,6 +20,7 @@ namespace TestingGUI {
         private List<Triple> patternTriples = new List<Triple>();
         private List<Triple> filteredTriples = new List<Triple>();
         private List<LexCollection> lex = new List<LexCollection>();
+        private EntityType types = new EntityType("Obiekt");
         private const String DIALOG_FILTER = "json files (*.json)|*.json|All files (*.*)|*.*";
 
         public Form1() {
@@ -66,16 +67,31 @@ namespace TestingGUI {
         }
 
         private void btnFilter_Click(object sender, EventArgs e) {
-            filteredTriples = FilteringMachine.filter(triples, patternTriples, lex);
+            filteredTriples = FilteringMachine.filter(triples, patternTriples, lex, types);
             listBoxFiltered.Items.Clear();
             foreach (Triple t in filteredTriples) {
                 listBoxFiltered.Items.Add(t.ToString());
             }
         }
 
+        private void buttonLoadTypes_Click(object sender, EventArgs e) {
+            openFileDialog.FileName = "[name]_type_hierarchy.json";
+
+            if (openFileDialog.ShowDialog() == DialogResult.OK) {
+                types = input.readTypeHierarchy(openFileDialog.FileName);
+                listBoxTypeHierarchy.Items.Clear();
+                foreach (String s in types.getHierarchyString().Split('\n')) {
+                    listBoxTypeHierarchy.Items.Add(s);
+                }
+                //listBoxTypeHierarchy.Items.Add(types.getType("Opel"));
+                //listBoxTypeHierarchy.Items.Add(types.getType("Daewoo"));
+                //listBoxTypeHierarchy.Items.Add(types.getType("Nothing"));
+
+            }
+        }
+
         private void btnSave_Click(object sender, EventArgs e) {
             saveFileDialog.FileName = "[name]_filtered_triples.json";
-
             if (saveFileDialog.ShowDialog() == System.Windows.Forms.DialogResult.OK) {
                 output.save(filteredTriples, saveFileDialog.FileName);
             }

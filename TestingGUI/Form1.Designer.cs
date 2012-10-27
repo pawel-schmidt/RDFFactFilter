@@ -36,6 +36,8 @@
             this.listBoxLex = new System.Windows.Forms.ListBox();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
+            this.listBoxTypeHierarchy = new System.Windows.Forms.ListBox();
+            this.buttonLoadTypes = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
             this.SuspendLayout();
@@ -43,9 +45,9 @@
             // btnLoadLex
             // 
             this.btnLoadLex.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.btnLoadLex.Location = new System.Drawing.Point(509, 3);
+            this.btnLoadLex.Location = new System.Drawing.Point(383, 3);
             this.btnLoadLex.Name = "btnLoadLex";
-            this.btnLoadLex.Size = new System.Drawing.Size(248, 24);
+            this.btnLoadLex.Size = new System.Drawing.Size(184, 24);
             this.btnLoadLex.TabIndex = 2;
             this.btnLoadLex.Text = "Load lex";
             this.btnLoadLex.UseVisualStyleBackColor = true;
@@ -86,7 +88,7 @@
             this.listBoxTriples.FormattingEnabled = true;
             this.listBoxTriples.Location = new System.Drawing.Point(3, 3);
             this.listBoxTriples.Name = "listBoxTriples";
-            this.listBoxTriples.Size = new System.Drawing.Size(754, 99);
+            this.listBoxTriples.Size = new System.Drawing.Size(754, 78);
             this.listBoxTriples.TabIndex = 0;
             // 
             // listBoxPatternTriples
@@ -94,9 +96,9 @@
             this.listBoxPatternTriples.Dock = System.Windows.Forms.DockStyle.Fill;
             this.listBoxPatternTriples.Font = new System.Drawing.Font("Consolas", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.listBoxPatternTriples.FormattingEnabled = true;
-            this.listBoxPatternTriples.Location = new System.Drawing.Point(3, 108);
+            this.listBoxPatternTriples.Location = new System.Drawing.Point(3, 87);
             this.listBoxPatternTriples.Name = "listBoxPatternTriples";
-            this.listBoxPatternTriples.Size = new System.Drawing.Size(754, 99);
+            this.listBoxPatternTriples.Size = new System.Drawing.Size(754, 78);
             this.listBoxPatternTriples.TabIndex = 1;
             // 
             // listBoxFiltered
@@ -104,17 +106,17 @@
             this.listBoxFiltered.Dock = System.Windows.Forms.DockStyle.Fill;
             this.listBoxFiltered.Font = new System.Drawing.Font("Consolas", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.listBoxFiltered.FormattingEnabled = true;
-            this.listBoxFiltered.Location = new System.Drawing.Point(3, 318);
+            this.listBoxFiltered.Location = new System.Drawing.Point(3, 339);
             this.listBoxFiltered.Name = "listBoxFiltered";
-            this.listBoxFiltered.Size = new System.Drawing.Size(754, 99);
+            this.listBoxFiltered.Size = new System.Drawing.Size(754, 78);
             this.listBoxFiltered.TabIndex = 3;
             // 
             // btnLoadPatternTriples
             // 
             this.btnLoadPatternTriples.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.btnLoadPatternTriples.Location = new System.Drawing.Point(256, 3);
+            this.btnLoadPatternTriples.Location = new System.Drawing.Point(193, 3);
             this.btnLoadPatternTriples.Name = "btnLoadPatternTriples";
-            this.btnLoadPatternTriples.Size = new System.Drawing.Size(247, 24);
+            this.btnLoadPatternTriples.Size = new System.Drawing.Size(184, 24);
             this.btnLoadPatternTriples.TabIndex = 1;
             this.btnLoadPatternTriples.Text = "Load pattern triples";
             this.btnLoadPatternTriples.UseVisualStyleBackColor = true;
@@ -125,7 +127,7 @@
             this.btnLoadTriples.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btnLoadTriples.Location = new System.Drawing.Point(3, 3);
             this.btnLoadTriples.Name = "btnLoadTriples";
-            this.btnLoadTriples.Size = new System.Drawing.Size(247, 24);
+            this.btnLoadTriples.Size = new System.Drawing.Size(184, 24);
             this.btnLoadTriples.TabIndex = 0;
             this.btnLoadTriples.Text = "Load triples";
             this.btnLoadTriples.UseVisualStyleBackColor = true;
@@ -140,19 +142,21 @@
             this.listBoxLex.Dock = System.Windows.Forms.DockStyle.Fill;
             this.listBoxLex.Font = new System.Drawing.Font("Consolas", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.listBoxLex.FormattingEnabled = true;
-            this.listBoxLex.Location = new System.Drawing.Point(3, 213);
+            this.listBoxLex.Location = new System.Drawing.Point(3, 171);
             this.listBoxLex.Name = "listBoxLex";
-            this.listBoxLex.Size = new System.Drawing.Size(754, 99);
+            this.listBoxLex.Size = new System.Drawing.Size(754, 78);
             this.listBoxLex.TabIndex = 2;
             // 
             // tableLayoutPanel1
             // 
             this.tableLayoutPanel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.tableLayoutPanel1.ColumnCount = 3;
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.34F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33F));
+            this.tableLayoutPanel1.ColumnCount = 4;
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutPanel1.Controls.Add(this.buttonLoadTypes, 3, 0);
             this.tableLayoutPanel1.Controls.Add(this.btnLoadTriples, 0, 0);
             this.tableLayoutPanel1.Controls.Add(this.btnLoadPatternTriples, 1, 0);
             this.tableLayoutPanel1.Controls.Add(this.btnLoadLex, 2, 0);
@@ -170,19 +174,43 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.tableLayoutPanel2.ColumnCount = 1;
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel2.Controls.Add(this.listBoxTypeHierarchy, 0, 3);
             this.tableLayoutPanel2.Controls.Add(this.listBoxTriples, 0, 0);
             this.tableLayoutPanel2.Controls.Add(this.listBoxPatternTriples, 0, 1);
-            this.tableLayoutPanel2.Controls.Add(this.listBoxFiltered, 0, 3);
+            this.tableLayoutPanel2.Controls.Add(this.listBoxFiltered, 0, 4);
             this.tableLayoutPanel2.Controls.Add(this.listBoxLex, 0, 2);
             this.tableLayoutPanel2.Location = new System.Drawing.Point(12, 45);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
-            this.tableLayoutPanel2.RowCount = 4;
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutPanel2.RowCount = 5;
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel2.Size = new System.Drawing.Size(760, 420);
             this.tableLayoutPanel2.TabIndex = 10;
+            // 
+            // listBoxTypeHierarchy
+            // 
+            this.listBoxTypeHierarchy.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.listBoxTypeHierarchy.Font = new System.Drawing.Font("Consolas", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.listBoxTypeHierarchy.FormattingEnabled = true;
+            this.listBoxTypeHierarchy.Location = new System.Drawing.Point(3, 255);
+            this.listBoxTypeHierarchy.Name = "listBoxTypeHierarchy";
+            this.listBoxTypeHierarchy.Size = new System.Drawing.Size(754, 78);
+            this.listBoxTypeHierarchy.TabIndex = 4;
+            // 
+            // buttonLoadTypes
+            // 
+            this.buttonLoadTypes.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.buttonLoadTypes.Location = new System.Drawing.Point(573, 3);
+            this.buttonLoadTypes.Name = "buttonLoadTypes";
+            this.buttonLoadTypes.Size = new System.Drawing.Size(184, 24);
+            this.buttonLoadTypes.TabIndex = 3;
+            this.buttonLoadTypes.Text = "Load types";
+            this.buttonLoadTypes.UseVisualStyleBackColor = true;
+            this.buttonLoadTypes.Click += new System.EventHandler(this.buttonLoadTypes_Click);
             // 
             // Form1
             // 
@@ -216,6 +244,8 @@
         private System.Windows.Forms.ListBox listBoxLex;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
+        private System.Windows.Forms.Button buttonLoadTypes;
+        private System.Windows.Forms.ListBox listBoxTypeHierarchy;
     }
 }
 
