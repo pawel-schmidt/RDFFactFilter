@@ -15,7 +15,7 @@ namespace Filtering {
         /// <param name="patternTriples">List of pattern triples.</param>
         /// <param name="lexicalizations">List of lexicalizations collections.</param>
         /// <returns>These (phrase) triples which match to collection of pattern triples.</returns>
-        public static List<Triple> filter(List<Triple> triples, List<Triple> patternTriples, List<LexCollection> lexicalizations) {
+        public static List<Triple> filter(List<Triple> triples, List<Triple> patternTriples, List<LexCollection> lexicalizations, EntityType typeHierarchy) {
             List<Triple> result = new List<Triple>();
 
             foreach (Triple t in triples) {
@@ -32,9 +32,9 @@ namespace Filtering {
                                 if (lex.Equals(t.property.value, StringComparison.OrdinalIgnoreCase)) {
                                     // create new triple - combination of (phrase) triple (names) and pattern triple (types)
                                     Triple toAdd = new Triple();
-                                    toAdd.@object = new Entity(t.@object.value, pt.@object.type);
+                                    toAdd.@object = new Entity(t.@object.value, typeHierarchy.getType(lex));
                                     toAdd.property = new Entity(t.property.value, pt.property.type);
-                                    toAdd.subject = new Entity(t.subject.value, pt.subject.type);
+                                    toAdd.subject = new Entity(t.subject.value, typeHierarchy.getType(lex));
 
                                     // add to result list and jump out from loop
                                     result.Add(toAdd);
