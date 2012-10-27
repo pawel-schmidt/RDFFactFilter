@@ -27,5 +27,12 @@ namespace Filtering {
         /// <param name="filePath">Path to the file.</param>
         /// <returns>List of read lexicalizations.</returns>
         List<LexCollection> readLexicalizations(String filePath);
+
+        /// <summary>
+        /// Read type hierarchy from file
+        /// </summary>
+        /// <param name="filePath">Path to the file.</param>
+        /// <returns>Type hierarchy.</returns>
+        EntityType readTypeHierarchy(string filePath);
     }
 }
