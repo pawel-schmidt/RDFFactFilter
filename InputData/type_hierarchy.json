@@ -2,7 +2,7 @@
   "name": "Obiekt",
   "subtypes": [
     {
-      "name": "Samochod",
+      "name": "Samochód",
       "subtypes": [
         {
           "name": "Opel",
