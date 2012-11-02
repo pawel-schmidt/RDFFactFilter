@@ -32,9 +32,9 @@ namespace Filtering {
                                 if (lex.Equals(t.property.value, StringComparison.OrdinalIgnoreCase)) {
                                     // create new triple - combination of (phrase) triple (names) and pattern triple (types)
                                     Triple toAdd = new Triple();
-                                    toAdd.@object = new Entity(t.@object.value, typeHierarchy.getType(lex));
+                                    toAdd.@object = new Entity(t.@object.value, typeHierarchy.getType(t.@object.ToString()));
                                     toAdd.property = new Entity(t.property.value, pt.property.type);
-                                    toAdd.subject = new Entity(t.subject.value, typeHierarchy.getType(lex));
+                                    toAdd.subject = new Entity(t.subject.value, typeHierarchy.getType(t.subject.ToString()));
 
                                     // add to result list and jump out from loop
                                     result.Add(toAdd);
