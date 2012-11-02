@@ -96,5 +96,37 @@ namespace TestingGUI {
                 output.save(filteredTriples, saveFileDialog.FileName);
             }
         }
+
+        private void buttonRemoveTriple_Click(object sender, EventArgs e) {
+            int index = listBoxTriples.SelectedIndex;
+            if (index >= 0) {
+                triples.RemoveAt(index);
+                listBoxTriples.Items.RemoveAt(index);
+            }
+        }
+
+        private void buttonRemovePatternTriple_Click(object sender, EventArgs e) {
+            int index = listBoxPatternTriples.SelectedIndex;
+            if (index >= 0) {
+                patternTriples.RemoveAt(index);
+                listBoxPatternTriples.Items.RemoveAt(index);
+            }
+        }
+
+        private void buttonRemoveLex_Click(object sender, EventArgs e) {
+            int index = listBoxLex.SelectedIndex;
+            if (index >= 0) {
+                lex.RemoveAt(index);
+                listBoxLex.Items.RemoveAt(index);
+            }
+        }
+
+        private void buttonRemoveFiltered_Click(object sender, EventArgs e) {
+            int index = listBoxFiltered.SelectedIndex;
+            if (index >= 0) {
+                filteredTriples.RemoveAt(index);
+                listBoxFiltered.Items.RemoveAt(index);
+            }
+        }
     }
 }

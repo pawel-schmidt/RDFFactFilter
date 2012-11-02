@@ -35,9 +35,13 @@
             this.saveFileDialog = new System.Windows.Forms.SaveFileDialog();
             this.listBoxLex = new System.Windows.Forms.ListBox();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            this.buttonLoadTypes = new System.Windows.Forms.Button();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.listBoxTypeHierarchy = new System.Windows.Forms.ListBox();
-            this.buttonLoadTypes = new System.Windows.Forms.Button();
+            this.buttonRemoveTriple = new System.Windows.Forms.Button();
+            this.buttonRemovePatternTriple = new System.Windows.Forms.Button();
+            this.buttonRemoveLex = new System.Windows.Forms.Button();
+            this.buttonRemoveFiltered = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
             this.SuspendLayout();
@@ -88,7 +92,7 @@
             this.listBoxTriples.FormattingEnabled = true;
             this.listBoxTriples.Location = new System.Drawing.Point(3, 3);
             this.listBoxTriples.Name = "listBoxTriples";
-            this.listBoxTriples.Size = new System.Drawing.Size(754, 78);
+            this.listBoxTriples.Size = new System.Drawing.Size(724, 78);
             this.listBoxTriples.TabIndex = 0;
             // 
             // listBoxPatternTriples
@@ -98,8 +102,8 @@
             this.listBoxPatternTriples.FormattingEnabled = true;
             this.listBoxPatternTriples.Location = new System.Drawing.Point(3, 87);
             this.listBoxPatternTriples.Name = "listBoxPatternTriples";
-            this.listBoxPatternTriples.Size = new System.Drawing.Size(754, 78);
-            this.listBoxPatternTriples.TabIndex = 1;
+            this.listBoxPatternTriples.Size = new System.Drawing.Size(724, 78);
+            this.listBoxPatternTriples.TabIndex = 2;
             // 
             // listBoxFiltered
             // 
@@ -108,8 +112,8 @@
             this.listBoxFiltered.FormattingEnabled = true;
             this.listBoxFiltered.Location = new System.Drawing.Point(3, 339);
             this.listBoxFiltered.Name = "listBoxFiltered";
-            this.listBoxFiltered.Size = new System.Drawing.Size(754, 78);
-            this.listBoxFiltered.TabIndex = 3;
+            this.listBoxFiltered.Size = new System.Drawing.Size(724, 78);
+            this.listBoxFiltered.TabIndex = 7;
             // 
             // btnLoadPatternTriples
             // 
@@ -144,8 +148,8 @@
             this.listBoxLex.FormattingEnabled = true;
             this.listBoxLex.Location = new System.Drawing.Point(3, 171);
             this.listBoxLex.Name = "listBoxLex";
-            this.listBoxLex.Size = new System.Drawing.Size(754, 78);
-            this.listBoxLex.TabIndex = 2;
+            this.listBoxLex.Size = new System.Drawing.Size(724, 78);
+            this.listBoxLex.TabIndex = 4;
             // 
             // tableLayoutPanel1
             // 
@@ -167,40 +171,6 @@
             this.tableLayoutPanel1.Size = new System.Drawing.Size(760, 30);
             this.tableLayoutPanel1.TabIndex = 9;
             // 
-            // tableLayoutPanel2
-            // 
-            this.tableLayoutPanel2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.tableLayoutPanel2.ColumnCount = 1;
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel2.Controls.Add(this.listBoxTypeHierarchy, 0, 3);
-            this.tableLayoutPanel2.Controls.Add(this.listBoxTriples, 0, 0);
-            this.tableLayoutPanel2.Controls.Add(this.listBoxPatternTriples, 0, 1);
-            this.tableLayoutPanel2.Controls.Add(this.listBoxFiltered, 0, 4);
-            this.tableLayoutPanel2.Controls.Add(this.listBoxLex, 0, 2);
-            this.tableLayoutPanel2.Location = new System.Drawing.Point(12, 45);
-            this.tableLayoutPanel2.Name = "tableLayoutPanel2";
-            this.tableLayoutPanel2.RowCount = 5;
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(760, 420);
-            this.tableLayoutPanel2.TabIndex = 10;
-            // 
-            // listBoxTypeHierarchy
-            // 
-            this.listBoxTypeHierarchy.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.listBoxTypeHierarchy.Font = new System.Drawing.Font("Consolas", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.listBoxTypeHierarchy.FormattingEnabled = true;
-            this.listBoxTypeHierarchy.Location = new System.Drawing.Point(3, 255);
-            this.listBoxTypeHierarchy.Name = "listBoxTypeHierarchy";
-            this.listBoxTypeHierarchy.Size = new System.Drawing.Size(754, 78);
-            this.listBoxTypeHierarchy.TabIndex = 4;
-            // 
             // buttonLoadTypes
             // 
             this.buttonLoadTypes.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -211,6 +181,88 @@
             this.buttonLoadTypes.Text = "Load types";
             this.buttonLoadTypes.UseVisualStyleBackColor = true;
             this.buttonLoadTypes.Click += new System.EventHandler(this.buttonLoadTypes_Click);
+            // 
+            // tableLayoutPanel2
+            // 
+            this.tableLayoutPanel2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.tableLayoutPanel2.ColumnCount = 2;
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 30F));
+            this.tableLayoutPanel2.Controls.Add(this.buttonRemoveFiltered, 1, 4);
+            this.tableLayoutPanel2.Controls.Add(this.buttonRemoveLex, 1, 2);
+            this.tableLayoutPanel2.Controls.Add(this.buttonRemovePatternTriple, 1, 1);
+            this.tableLayoutPanel2.Controls.Add(this.listBoxTypeHierarchy, 0, 3);
+            this.tableLayoutPanel2.Controls.Add(this.listBoxTriples, 0, 0);
+            this.tableLayoutPanel2.Controls.Add(this.listBoxPatternTriples, 0, 1);
+            this.tableLayoutPanel2.Controls.Add(this.listBoxFiltered, 0, 4);
+            this.tableLayoutPanel2.Controls.Add(this.listBoxLex, 0, 2);
+            this.tableLayoutPanel2.Controls.Add(this.buttonRemoveTriple, 1, 0);
+            this.tableLayoutPanel2.Location = new System.Drawing.Point(12, 45);
+            this.tableLayoutPanel2.Name = "tableLayoutPanel2";
+            this.tableLayoutPanel2.RowCount = 5;
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(760, 420);
+            this.tableLayoutPanel2.TabIndex = 10;
+            // 
+            // listBoxTypeHierarchy
+            // 
+            this.listBoxTypeHierarchy.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.listBoxTypeHierarchy.Font = new System.Drawing.Font("Consolas", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.listBoxTypeHierarchy.FormattingEnabled = true;
+            this.listBoxTypeHierarchy.Location = new System.Drawing.Point(3, 255);
+            this.listBoxTypeHierarchy.Name = "listBoxTypeHierarchy";
+            this.listBoxTypeHierarchy.Size = new System.Drawing.Size(724, 78);
+            this.listBoxTypeHierarchy.TabIndex = 6;
+            // 
+            // buttonRemoveTriple
+            // 
+            this.buttonRemoveTriple.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.buttonRemoveTriple.Location = new System.Drawing.Point(733, 3);
+            this.buttonRemoveTriple.Name = "buttonRemoveTriple";
+            this.buttonRemoveTriple.Size = new System.Drawing.Size(24, 78);
+            this.buttonRemoveTriple.TabIndex = 1;
+            this.buttonRemoveTriple.Text = "r\r\ne\r\nm\r\no\r\nv\r\ne";
+            this.buttonRemoveTriple.UseVisualStyleBackColor = true;
+            this.buttonRemoveTriple.Click += new System.EventHandler(this.buttonRemoveTriple_Click);
+            // 
+            // buttonRemovePatternTriple
+            // 
+            this.buttonRemovePatternTriple.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.buttonRemovePatternTriple.Location = new System.Drawing.Point(733, 87);
+            this.buttonRemovePatternTriple.Name = "buttonRemovePatternTriple";
+            this.buttonRemovePatternTriple.Size = new System.Drawing.Size(24, 78);
+            this.buttonRemovePatternTriple.TabIndex = 3;
+            this.buttonRemovePatternTriple.Text = "r\r\ne\r\nm\r\no\r\nv\r\ne";
+            this.buttonRemovePatternTriple.UseVisualStyleBackColor = true;
+            this.buttonRemovePatternTriple.Click += new System.EventHandler(this.buttonRemovePatternTriple_Click);
+            // 
+            // buttonRemoveLex
+            // 
+            this.buttonRemoveLex.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.buttonRemoveLex.Location = new System.Drawing.Point(733, 171);
+            this.buttonRemoveLex.Name = "buttonRemoveLex";
+            this.buttonRemoveLex.Size = new System.Drawing.Size(24, 78);
+            this.buttonRemoveLex.TabIndex = 5;
+            this.buttonRemoveLex.Text = "r\r\ne\r\nm\r\no\r\nv\r\ne";
+            this.buttonRemoveLex.UseVisualStyleBackColor = true;
+            this.buttonRemoveLex.Click += new System.EventHandler(this.buttonRemoveLex_Click);
+            // 
+            // buttonRemoveFiltered
+            // 
+            this.buttonRemoveFiltered.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.buttonRemoveFiltered.Location = new System.Drawing.Point(733, 339);
+            this.buttonRemoveFiltered.Name = "buttonRemoveFiltered";
+            this.buttonRemoveFiltered.Size = new System.Drawing.Size(24, 78);
+            this.buttonRemoveFiltered.TabIndex = 8;
+            this.buttonRemoveFiltered.Text = "r\r\ne\r\nm\r\no\r\nv\r\ne";
+            this.buttonRemoveFiltered.UseVisualStyleBackColor = true;
+            this.buttonRemoveFiltered.Click += new System.EventHandler(this.buttonRemoveFiltered_Click);
             // 
             // Form1
             // 
@@ -246,6 +298,10 @@
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
         private System.Windows.Forms.Button buttonLoadTypes;
         private System.Windows.Forms.ListBox listBoxTypeHierarchy;
+        private System.Windows.Forms.Button buttonRemoveTriple;
+        private System.Windows.Forms.Button buttonRemoveFiltered;
+        private System.Windows.Forms.Button buttonRemoveLex;
+        private System.Windows.Forms.Button buttonRemovePatternTriple;
     }
 }
 
