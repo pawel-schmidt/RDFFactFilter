@@ -10,9 +10,9 @@ using Newtonsoft.Json;
  */
 namespace RDFRepresentation {
     public class Triple {
-        public Entity @object;
-        public  Entity subject;
-        public  Entity property;
+        public Entity @object = new Entity();
+        public Entity subject = new Entity();
+        public Entity property = new Entity();
 
         /// <summary>
         /// Entities which are connected. @object entity is connected with subject by property.
