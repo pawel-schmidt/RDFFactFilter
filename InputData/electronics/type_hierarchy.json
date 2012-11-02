@@ -1,0 +1,125 @@
+﻿{
+  "name": "obiekt",
+  "subtypes": [
+	{
+	  "name": "RTV",
+	  "subtypes": [
+		{
+		  "name": "telefon",
+		  "subtypes": [
+			{
+			  "name": "smartfon",
+			  "subtypes": [
+				{
+				  "name": "Galaxy S",
+				  "subtypes": [
+					{
+					  "name": "producent",
+					  "subtypes": [
+						{
+						  "name": "Samsung",
+						  "subtypes": [
+							
+						  ]
+						}
+					  ]
+					}
+				  ]
+				},
+				{
+				  "name": "Lumia 800",
+				  "subtypes": [
+					{
+					  "name": "producent",
+					  "subtypes": [
+						{
+						  "name": "Nokia",
+						  "subtypes": [
+						  ]
+						}
+					  ]
+					}
+				  ]
+				},
+				{
+				  "name": "Nokia E52",
+				  "subtypes": [
+					
+				  ]
+				},
+				{
+				  "name": "Nokia E51",
+				  "subtypes": [
+					
+				  ]
+				},
+				{
+				  "name": "Galaxy Ace",
+				  "subtypes": [
+					
+				  ]
+				}
+			  ]
+			}
+		  ]
+		},
+		{
+		  "name": "TV",
+		  "subtypes": [
+			{
+			  "name": "LCD",
+			  "subtypes": [
+				{
+				  "name": "41 cali",
+				  "subtypes": [
+					
+				  ]
+				},
+				{
+				  "name": "45 cali",
+				  "subtypes": [
+					
+				  ]
+				},
+				{
+				  "name": "32 cale",
+				  "subtypes": [
+					
+				  ]
+				},
+				{
+				  "name": "15 cali",
+				  "subtypes": [
+				  ]
+				}
+			  ]
+			},
+			{
+			  "name": "plazma",
+			  "subtypes": [
+				{
+				  "name": "27 cali",
+				  "subtypes": [
+					
+				  ]
+				},
+				{
+				  "name": "32 cale",
+				  "subtypes": [
+					
+				  ]
+				},
+				{
+				  "name": "50 cali",
+				  "subtypes": [
+					
+				  ]
+				}
+			  ]
+			}
+		  ]
+		}
+	  ]
+	}
+  ]
+}
