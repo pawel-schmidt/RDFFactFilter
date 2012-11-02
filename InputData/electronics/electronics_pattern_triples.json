@@ -1,0 +1,30 @@
+[
+    {
+        "property": {
+            "type": {
+                "name": "relacjaWyprodukował"
+            }
+        },
+    }, 
+    {
+        "property": {
+            "type": {
+                "name": "relacjaZaprojektował"
+            }
+        },
+    }, 
+    {
+        "property": {
+            "type": {
+                "name": "relacjaSprzedał"
+            }
+        }, 
+    }, 
+    {
+        "property": {
+            "type": {
+                "name": "relacjaKonkurencji"
+            }
+        },
+    }
+]
